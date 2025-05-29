@@ -93,15 +93,12 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 <br><br><br>
 <br>
 # 3.Business Use Cases➡️Algorithmic Solutions
-Sure! Here's a simpler and more user-friendly version:
-
----
 
 ### **1. Hash Tables in Microsoft Outlook (Email Deduplication and Search)**
 
 **How it's used:**
 
-Hash tables in Microsoft Outlook help improve performance by giving each email a unique code, which makes it easy to detect and remove duplicates. They also speed up contact lookup when typing names or email addresses and make searching through emails faster by organizing and indexing them efficiently.
+Hash tables in Microsoft Outlook can be used to improve performance by giving each email a unique code, which makes it easy to detect and remove duplicates. They also speed up contact lookup when typing names or email addresses and make searching through emails faster by organizing and indexing them efficiently.
 
 **Challenges:**
 
@@ -116,7 +113,7 @@ Hash tables in Microsoft Outlook help improve performance by giving each email a
 <p align="center">
   <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/2016-05-07-objc-hashtable-hashstate-next.gif?raw=true" alt="Google Infrastructure">
   <br>
-  [8] Floyd-Warshall Algorithm for optimizing network paths in Google's infrastructure
+  [1] Hash maps for deduplication of emails
   <br>
 </p><br>
 
@@ -130,7 +127,8 @@ Hash tables in Microsoft Outlook help improve performance by giving each email a
 
 ---
 [View Dijkstra's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/hash.cpp){:target="_blank"}<br>
----
+
+<br><br>
 
 <br><br><br>
 # 4.Use Case and Efficiency Overview
