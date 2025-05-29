@@ -44,7 +44,7 @@
 
 
 1. 🌱 Introduction: Microsoft’s Digital Ecosystem
-<p align="center"> <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.github.io/blob/main/images/Microsoft-365.jpg?raw=true" width="70%"> <br><i>Figure: Microsoft—Empowering every person and organization on the planet to achieve more.</i> </p>
+<p align="center"> <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/Microsoft-365.jpg?raw=true" width="70%"> <br><i>Figure: Microsoft—Empowering every person and organization on the planet to achieve more.</i> </p>
 Microsoft is more than a tech giant—it’s a digital enabler. Whether you’re a developer building the next big app, a student working on assignments, or an enterprise architect designing cloud solutions, Microsoft meets you where you are.
 
 With products rooted in efficiency, intelligence, and connectivity, Microsoft offers an unmatched ecosystem for businesses and individuals alike. These services present real-world challenges and optimization opportunities—perfect use cases for algorithmic problem-solving.
