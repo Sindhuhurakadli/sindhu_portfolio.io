@@ -114,7 +114,7 @@ Hash tables in Microsoft Outlook help improve performance by giving each email a
 * **Saves space** by removing repeated emails.
 * **Improves user experience**, making Outlook quicker and easier to use.
 <p align="center">
-  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/floyd.gif?raw=true" alt="Google Infrastructure">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/2016-05-07-objc-hashtable-hashstate-next.gif?raw=true" alt="Google Infrastructure">
   <br>
   [8] Floyd-Warshall Algorithm for optimizing network paths in Google's infrastructure
   <br>
