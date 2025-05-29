@@ -47,7 +47,7 @@
 ## 1. 🌱 Introduction: Microsoft’s Digital Ecosystem
 
 <p align="center">
-  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.github.io/blob/main/images/Microsoft-365.jpg?raw=true" width="70%">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/Microsoft-365.jpg?raw=true" width="70%">
   <br><i>Figure: Microsoft—Empowering every person and organization on the planet to achieve more.</i>
 </p>
 
