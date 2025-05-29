@@ -111,7 +111,7 @@ Hash tables in Microsoft Outlook can be used to improve performance by giving ea
 * **Saves space** by removing repeated emails.
 * **Improves user experience**, making Outlook quicker and easier to use.
 <p align="center">
-  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/2016-05-07-objc-hashtable-hashstate-next.gif?raw=true" alt="Google Infrastructure">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/2016-05-07-objc-hashtable-hashstate-next.gif?raw=true" alt="Microsoft Infrastructure">
   <br>
   [1] Hash maps for deduplication of emails
   <br>
@@ -126,9 +126,35 @@ Hash tables in Microsoft Outlook can be used to improve performance by giving ea
 * **Space Complexity:** O(N), where N is the number of key-value pairs
 
 ---
-[View Dijkstra's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/hash.cpp){:target="_blank"}<br>
+[View Hash map's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/hash.cpp){:target="_blank"}<br>
 
 <br><br>
+
+### **Segment Trees in Microsoft (Azure Monitoring and Analytics)**
+
+**Can be used** in Microsoft Azure to analyze system logs or monitor metrics like CPU or memory usage over time. Segment trees make it easy to quickly calculate things like the average CPU usage between two time points, even when handling large amounts of data.
+
+**Challenges:**
+Handling **large and constantly changing datasets** while still giving fast results for real-time dashboards.
+
+**Market Benefits:**
+
+* **Faster dashboard updates** with live metrics.
+* **Better real-time analytics** for users to monitor and respond to system issues quickly.
+
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/segment_tree.gif" alt="Microsoft Infrastructure">
+  <br>
+  [1] Hash maps for deduplication of emails
+  <br>
+</p><br>
+### **Algorithms, Design Techniques, and Performance Analysis**
+
+* **Technique:** Divide and Conquer
+* **Enhancement:** Lazy Propagation (for efficient range updates)
+* **Time Complexity:** O(log N) per query or update, where N is the number of data points
+* **Space Complexity:** O(N), because it stores extra information for each segment in a tree structure
+[View Segment tree's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/segment_tree.cpp){:target="_blank"}<br>
 
 <br><br><br>
 # 4.Use Case and Efficiency Overview
