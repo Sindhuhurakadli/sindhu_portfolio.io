@@ -79,3 +79,28 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 | 🛡️ **Microsoft Defender** | Always-on cybersecurity for personal and enterprise needs. |
 
 > 🎯 *Every product is an opportunity to optimize, automate, and innovate using algorithms.*
+
+<br>
+# 2.Objectives
+
+1. Apply theoretical knowledge gained from Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses to real-world challenges of microsoft.
+
+2. Identify key algorithms, data structures, or system design techniques currently in use or with potential applications in enhancing Microsoft features.
+
+3. To connect Microsoft tools with basic DSA concepts and show how they solve real-world problems.
+
+4. To provide a detailed analysis of each algorithm’s complexity and performance.
+<br><br><br>
+<br>
+# 3.Business Use Cases➡️Algorithmic Solutions
+
+<br><br><br>
+# 4.Use Case and Efficiency Overview
+<br>
+<br><br><br>
+# 5.Learnings and Key Takeaways
+<br>
+This portfolio shows how the right choice of data structures and algorithms can help solve real business problems across different areas. Each use case explains which algorithms are used, the challenges involved, the benefits gained, and the design techniques applied. It also shows how the concepts learned in APS and DSA classes can be used to tackle practical issues with a focus on efficiency.
+
+By connecting classroom learning with real-world examples, the portfolio highlights how well-chosen algorithms can improve services and drive innovation. It emphasizes the value of understanding algorithms to make smarter, faster, and more effective solutions in everyday technology.
+<br><br><br>
