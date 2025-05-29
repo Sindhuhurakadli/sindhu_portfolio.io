@@ -155,6 +155,37 @@ Handling **large and constantly changing datasets** while still giving fast resu
 * **Time Complexity:** O(log N) per query or update, where N is the number of data points
 * **Space Complexity:** O(N), because it stores extra information for each segment in a tree structure
 [View Segment tree's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/segment_tree.cpp){:target="_blank"}<br>
+<br><br>
+
+### **Tries in Microsoft Word (Spell Checking and Autocomplete)**
+
+Tries can be used in Microsoft Word to store dictionary words in a way that allows fast and efficient lookup based on prefixes. Tries (also called prefix trees) help Word quickly check if a word is spelled correctly and offer suggestions as you type.
+
+**Application in Microsoft:**
+Tries store thousands of dictionary words in a tree-like structure, where each node represents a character. This allows Word to instantly find all words that begin with a certain prefix, making features like **spell check**, **autocomplete**, and **word suggestions** very fast and accurate.
+
+**Challenges:**
+Managing the storage and fast retrieval of **hundreds of thousands of words**, while keeping the memory usage efficient and ensuring **prefix-based search** works instantly.
+
+**Market Benefits:**
+
+* **Real-time typing assistance** through fast and smart word suggestions.
+* **Accurate spell checking**, improving writing quality.
+* **Enhanced user experience**, especially for fast typers and professional writers.
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/tries.giff" alt="Microsoft Infrastructure">
+  <br>
+  [1] Tries for spelling checking and autocomplition
+  <br>
+</p><br>
+
+### **Algorithms, Design Techniques, and Performance Analysis**
+
+* **Data Structure:** Trie (Prefix Tree)
+* **Design Technique:** Character-based hierarchical tree
+* **Time Complexity:** O(L) per operation (L = length of the word or prefix)
+* **Space Complexity:** O(N × L), where N is the number of words stored, and L is the average length of words (because each character needs its own node in the tree)
+[View Tries code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/tries.cpp){:target="_blank"}<br>
 
 <br><br><br>
 # 4.Use Case and Efficiency Overview
