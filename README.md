@@ -93,6 +93,39 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 <br><br><br>
 <br>
 # 3.Business Use Cases➡️Algorithmic Solutions
+Sure! Here's a simpler and more user-friendly version:
+
+---
+
+### **1. Hash Tables in Microsoft Outlook (Email Deduplication and Search)**
+
+**How it's used:**
+
+Hash tables in Microsoft Outlook help improve performance by giving each email a unique code, which makes it easy to detect and remove duplicates. They also speed up contact lookup when typing names or email addresses and make searching through emails faster by organizing and indexing them efficiently.
+
+**Challenges:**
+
+* Must be **very fast** so Outlook feels smooth.
+* Needs to avoid **mix-ups** where different emails get the same code.
+
+**Why it’s useful:**
+
+* **Faster email search and better organization.**
+* **Saves space** by removing repeated emails.
+* **Improves user experience**, making Outlook quicker and easier to use.
+
+
+ **Algorithms, Design Techniques, Performance Analysis:**
+
+* **Design Technique:** Hashing, Direct Access Table
+* **Time Complexity:**
+  * **Average Case:** O(1) for insert, delete, and lookup
+  * **Worst Case:** O(N) (when many keys collide and are stored in a list or tree)
+* **Space Complexity:** O(N), where N is the number of key-value pairs
+
+---
+[View Dijkstra's code here](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/dijkstra.cpp){:target="_blank"}<br>
+---
 
 <br><br><br>
 # 4.Use Case and Efficiency Overview
