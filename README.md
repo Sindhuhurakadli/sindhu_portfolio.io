@@ -143,7 +143,7 @@ Handling **large and constantly changing datasets** while still giving fast resu
 * **Better real-time analytics** for users to monitor and respond to system issues quickly.
 
 <p align="center">
-  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/hash.cpp?raw=true" alt="Microsoft Infrastructure">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/segment_tree.gif?raw=true" alt="Microsoft Infrastructure">
   <br>
   [1] Hash maps for deduplication of emails
   <br>
