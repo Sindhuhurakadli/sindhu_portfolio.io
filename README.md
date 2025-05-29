@@ -143,7 +143,7 @@ Handling **large and constantly changing datasets** while still giving fast resu
 * **Better real-time analytics** for users to monitor and respond to system issues quickly.
 
 <p align="center">
-  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/segment_tree.gif" alt="Microsoft Infrastructure">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/hash.cpp?raw=true" alt="Microsoft Infrastructure">
   <br>
   [1] Hash maps for deduplication of emails
   <br>
@@ -173,7 +173,7 @@ Managing the storage and fast retrieval of **hundreds of thousands of words**, w
 * **Accurate spell checking**, improving writing quality.
 * **Enhanced user experience**, especially for fast typers and professional writers.
 <p align="center">
-  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/tries.giff" alt="Microsoft Infrastructure">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/tries.gif?raw=true" alt="Microsoft Infrastructure">
   <br>
   [1] Tries for spelling checking and autocomplition
   <br>
