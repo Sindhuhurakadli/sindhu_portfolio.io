@@ -223,7 +223,7 @@ This can be used in Microsoft security tools like BitLocker or Windows Defender 
 
 <br><br>
 
-### **7. Heaps in Microsoft Store’s Recommendation Engine**
+### **5. Heaps in Microsoft Store’s Recommendation Engine**
 
 This can be used in the Microsoft Store to show users the most relevant or trending apps by maintaining a list of top-rated or most-clicked products. Heaps help efficiently manage and update the top-K product recommendations in real time as user interactions or product rankings change.
 
@@ -263,6 +263,102 @@ Microsoft Store uses heaps to keep track of the top-K apps or products based on 
 * **Space Complexity:**
 * **O(K)**, where K is the number of top items being tracked.
 [View Heap operations code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/heap.cpp){:target="_blank"}<br>
+
+<br><br>
+
+### **6.Graph Traversal & Shortest Path Algorithms in Microsoft Products (Bing Maps, Azure, LinkedIn)**
+
+## **I. Dijkstra’s Algorithm in Bing Maps (Microsoft)**
+
+**Application in Microsoft:**
+Dijkstra’s algorithm is used in Bing Maps to find the shortest path between two locations in a road network where each road (edge) has a weight such as distance or estimated travel time.
+
+**Challenges:**
+
+* Efficiently computing shortest paths in massive, real-time road networks
+* Handling dynamic updates like traffic congestion and road closures
+
+**Market Benefits:**
+
+* Accurate and optimal route suggestions
+* Better real-time navigation decisions
+* Enhanced user satisfaction and competitiveness with other navigation platforms
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/Dijkstra.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [6] Dijkstra's in bing maps.
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **Dijkstra’s Algorithm** using Min-Heap (Priority Queue)
+* **Greedy + Dynamic Programming approach**
+* **Time Complexity:** O((V + E) log V)
+* **Space Complexity:** O(V)
+[View Dijkstra's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/dijkstra.cpp){:target="_blank"}<br>
+
+## **II. A\* Algorithm in Bing Maps (Microsoft)**
+
+**Application in Microsoft:**
+A\* is used in Bing Maps for efficient and intelligent pathfinding. It enhances Dijkstra’s by incorporating heuristics like straight-line (Euclidean) distance to speed up searches.
+
+**Challenges:**
+
+* Designing effective and admissible heuristics
+* Balancing search accuracy and computation time
+* Reacting quickly to real-time map updates
+
+**Market Benefits:**
+
+* Faster route calculations with nearly optimal results
+* Improved user experience with low-latency directions
+* Scalability to millions of users and devices
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/A_search.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [7] A\* for path finding.
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **A\* Search Algorithm**
+* **Heuristic-based Best-First Search**
+* **f(n) = g(n) + h(n)** (cost so far + estimated cost to goal)
+* **Time Complexity:** O((V + E) log V) depending on heuristic quality
+* **Space Complexity:** O(V)
+
+[View A\* Search Algorithm code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/A_search){:target="_blank"}<br>
+
+## **III. Breadth-First Search (BFS) in Bing Maps (Microsoft)**
+
+**Application in Microsoft:**
+BFS is used in Bing Maps for computing the shortest path in unweighted graphs or approximating minimal steps (like turns or intersections) in uniform networks such as grids or small urban areas.
+
+**Challenges:**
+
+* Managing rapid traversal in densely connected graphs
+* Supporting parallel queries for large-scale user bases
+* Ensuring fast responses in bandwidth-constrained scenarios
+
+**Market Benefits:**
+
+* Lightweight, quick estimates for nearby or local routing
+* Real-time responsiveness in mobile applications
+* Efficient computation for preloading or fallback navigation modes
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/BFS.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [8] Breadth-First Search in Bing Maps.
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **Breadth-First Search (BFS)** using a queue
+* **Level-order traversal** of nodes
+* **Time Complexity:** O(V + E)
+* **Space Complexity:** O(V)
+[View Breadth first serach code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bfs.cpp){:target="_blank"}<br>
+
 <br><br><br>
 # 4.Use Case and Efficiency Overview
 <br>
