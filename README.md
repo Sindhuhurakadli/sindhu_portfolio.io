@@ -149,10 +149,10 @@ Handling large and constantly changing datasets while still giving fast results 
 </p><br>
 ### **Algorithms, Design Techniques, and Performance Analysis**
 
-* **Technique:** Divide and Conquer.
-* **Enhancement:** Lazy Propagation (for efficient range updates).
-* **Time Complexity:** O(log N) per query or update, where N is the number of data points.
-* **Space Complexity:** O(N), because it stores extra information for each segment in a tree structure.
+* **Technique:** Divide and Conquer
+* **Enhancement:** Lazy Propagation (for efficient range updates)
+* **Time Complexity:** O(log N) per query or update, where N is the number of data points
+* **Space Complexity:** O(N), because it stores extra information for each segment in a tree structure
 ---
 [View Segment tree's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/segment_tree.cpp){:target="_blank"}<br>
 <br><br>
@@ -184,7 +184,7 @@ Managing the storage and fast retrieval of **hundreds of thousands of words**, w
 * **Data Structure:** Trie (Prefix Tree)
 * **Design Technique:** Character-based hierarchical tree
 * **Time Complexity:** O(L) per operation (L = length of the word or prefix)
-* **Space Complexity:** O(N × L), where N is the number of words stored, and L is the average length of words (because each character needs its own node in the tree).
+* **Space Complexity:** O(N × L), where N is the number of words stored, and L is the average length of words (because each character needs its own node in the tree)
 ---
 [View Tries code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/tries.cpp){:target="_blank"}<br>
 <br><br>
@@ -219,7 +219,7 @@ This can be used in Microsoft security tools like BitLocker or Windows Defender 
 
 * **Technique:** Bit Masking, Bitwise Operations
 * **Time Complexity:** O(1) for most operations like AND, OR, XOR, and shifts
-* **Space Complexity:** O(1), since only a few bits or integers are used regardless of data size.
+* **Space Complexity:** O(1), since only a few bits or integers are used regardless of data size
 ---
 
 [View Bit Manipulation code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bit.cpp){:target="_blank"}<br>
@@ -264,7 +264,7 @@ Microsoft Store uses heaps to keep track of the top-K apps or products based on 
   * Extracting top-K items: **O(K log K)**
 
 * **Space Complexity:**
-* **O(K)**, where K is the number of top items being tracked.
+* **O(K)**, where K is the number of top items being tracked
 ---
 [View Heap operations code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/heap.cpp){:target="_blank"}<br>
 
@@ -330,7 +330,7 @@ A\* is used in Bing Maps for efficient and intelligent pathfinding. It enhances 
 * **f(n) = g(n) + h(n)** (cost so far + estimated cost to goal)
 * **Time Complexity:** O((V + E) log V) depending on heuristic quality
 * **Space Complexity:** O(V)
-
+---
 [View A\* Search Algorithm code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/A_search){:target="_blank"}<br>
 
 #### **III. Breadth-First Search (BFS) in Bing Maps (Microsoft)**
