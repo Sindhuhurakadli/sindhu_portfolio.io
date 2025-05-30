@@ -365,10 +365,8 @@ BFS is used in Bing Maps for computing the shortest path in unweighted graphs or
 [View Breadth first serach code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bfs.cpp){:target="_blank"}<br>
 <br><br>
 
-## **Graph Traversal & Shortest Path Algorithms in Microsoft Products (Bing Maps, Azure, LinkedIn)**
 
-
-### **6. Priority Queues for Job Prioritization in Microsoft Azure**
+### **7. Priority Queues for Job Prioritization in Microsoft Azure**
 
 **Application in Microsoft:**
 Microsoft Azure can use priority queues to schedule and prioritize cloud jobs, tasks, and virtual machine requests. For example, Azure Batch or Azure Kubernetes Services (AKS) schedules tasks based on urgency, user-defined priority, and system resource availability using a heap-based priority queue.
@@ -409,7 +407,7 @@ Microsoft Azure can use priority queues to schedule and prioritize cloud jobs, t
 [View Priority Queue code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/priority_queue.cpp){:target="_blank"}<br>
 <br><br>
 
-### **7. Skip Lists in Microsoft Azure Table Storage & Search Indexing**
+### **8. Skip Lists in Microsoft Azure Table Storage & Search Indexing**
 
 **Application in Microsoft:**
 Skip lists can be utilized in Microsoft Azure Table Storage and Microsoft Search (e.g., Outlook Search, Bing Enterprise Search) to maintain sorted indexes of entities, documents, or records based on keys like timestamps, relevance, or custom scores. They allow fast insertions, deletions, and searches in distributed key-value stores or full-text indexes.
