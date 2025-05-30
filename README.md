@@ -446,6 +446,48 @@ Skip lists can be utilized in Microsoft Azure Table Storage and Microsoft Search
 * **Space Complexity:** O(n), where n is the number of elements in the skip list
 ---
 [View Skip List code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/skiplist.cpp){:target="_blank"}<br>
+<br><br>
+
+### **9. Assignment Problem in Microsoft Azure Resource Allocation & Project Scheduling**
+
+**Application in Microsoft:**
+The Assignment Problem is used in Azure Resource Scheduling, workforce task allocation, and cloud service mapping, where a set of resources (e.g., virtual machines, containers, employees) must be optimally assigned to a set of tasks or jobs with minimal cost or maximum efficiency.
+
+It also appears in project planning tools like Microsoft Project, where workers are assigned to tasks based on skill, availability, and priority.
+
+**Challenges:**
+
+* Minimizing cost or time while maximizing resource efficiency
+* Handling large-scale, dynamic environments in real-time (e.g., Azure datacenters)
+* Balancing load across heterogeneous resources and users
+
+**Market Benefits:**
+
+* Optimal resource utilization in cloud environments
+* Faster execution of customer workloads
+* Improved productivity and cost savings in enterprise tools like Microsoft Project
+
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **Hungarian Algorithm (Kuhn-Munkres Algorithm)** for optimal assignment
+
+* **Greedy & Dynamic Programming** for approximations in real-time systems
+
+* **Used in:**
+
+  * Azure VM/container-job scheduling
+  * Task allocation in Microsoft Project & Planner
+  * Meeting room or device assignment in Microsoft 365
+
+* **Time Complexity:**
+
+  * **Hungarian Algorithm:** O(n³), where n is the number of agents/tasks
+  * **Greedy Approaches:** O(n²) or faster for real-time heuristics
+
+* **Space Complexity:** O(n²) for storing cost matrix
+
+---
+[View Assignment problem code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/assigmnet.cpp){:target="_blank"}<br>
 
 <br><br><br>
 # 4.Use Case and Efficiency Overview
