@@ -149,10 +149,11 @@ Handling large and constantly changing datasets while still giving fast results 
 </p><br>
 ### **Algorithms, Design Techniques, and Performance Analysis**
 
-* **Technique:** Divide and Conquer
-* **Enhancement:** Lazy Propagation (for efficient range updates)
-* **Time Complexity:** O(log N) per query or update, where N is the number of data points
-* **Space Complexity:** O(N), because it stores extra information for each segment in a tree structure
+* **Technique:** Divide and Conquer.
+* **Enhancement:** Lazy Propagation (for efficient range updates).
+* **Time Complexity:** O(log N) per query or update, where N is the number of data points.
+* **Space Complexity:** O(N), because it stores extra information for each segment in a tree structure.
+---
 [View Segment tree's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/segment_tree.cpp){:target="_blank"}<br>
 <br><br>
 
@@ -183,7 +184,8 @@ Managing the storage and fast retrieval of **hundreds of thousands of words**, w
 * **Data Structure:** Trie (Prefix Tree)
 * **Design Technique:** Character-based hierarchical tree
 * **Time Complexity:** O(L) per operation (L = length of the word or prefix)
-* **Space Complexity:** O(N × L), where N is the number of words stored, and L is the average length of words (because each character needs its own node in the tree)
+* **Space Complexity:** O(N × L), where N is the number of words stored, and L is the average length of words (because each character needs its own node in the tree).
+---
 [View Tries code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/tries.cpp){:target="_blank"}<br>
 <br><br>
 
@@ -217,7 +219,8 @@ This can be used in Microsoft security tools like BitLocker or Windows Defender 
 
 * **Technique:** Bit Masking, Bitwise Operations
 * **Time Complexity:** O(1) for most operations like AND, OR, XOR, and shifts
-* **Space Complexity:** O(1), since only a few bits or integers are used regardless of data size
+* **Space Complexity:** O(1), since only a few bits or integers are used regardless of data size.
+---
 
 [View Bit Manipulation code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bit.cpp){:target="_blank"}<br>
 
@@ -262,13 +265,14 @@ Microsoft Store uses heaps to keep track of the top-K apps or products based on 
 
 * **Space Complexity:**
 * **O(K)**, where K is the number of top items being tracked.
+---
 [View Heap operations code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/heap.cpp){:target="_blank"}<br>
 
 <br><br>
 
 ### **6.Graph Traversal & Shortest Path Algorithms in Microsoft Products (Bing Maps, Azure, LinkedIn)**
 
-## **I. Dijkstra’s Algorithm in Bing Maps (Microsoft)**
+#### **I. Dijkstra’s Algorithm in Bing Maps (Microsoft)**
 
 **Application in Microsoft:**
 Dijkstra’s algorithm is used in Bing Maps to find the shortest path between two locations in a road network where each road (edge) has a weight such as distance or estimated travel time.
@@ -297,7 +301,7 @@ Dijkstra’s algorithm is used in Bing Maps to find the shortest path between tw
 * **Space Complexity:** O(V)
 [View Dijkstra's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/dijkstra.cpp){:target="_blank"}<br>
 
-## **II. A\* Algorithm in Bing Maps (Microsoft)**
+#### **II. A\* Algorithm in Bing Maps (Microsoft)**
 
 **Application in Microsoft:**
 A\* is used in Bing Maps for efficient and intelligent pathfinding. It enhances Dijkstra’s by incorporating heuristics like straight-line (Euclidean) distance to speed up searches.
@@ -329,7 +333,7 @@ A\* is used in Bing Maps for efficient and intelligent pathfinding. It enhances 
 
 [View A\* Search Algorithm code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/A_search){:target="_blank"}<br>
 
-## **III. Breadth-First Search (BFS) in Bing Maps (Microsoft)**
+#### **III. Breadth-First Search (BFS) in Bing Maps (Microsoft)**
 
 **Application in Microsoft:**
 BFS is used in Bing Maps for computing the shortest path in unweighted graphs or approximating minimal steps (like turns or intersections) in uniform networks such as grids or small urban areas.
@@ -357,7 +361,53 @@ BFS is used in Bing Maps for computing the shortest path in unweighted graphs or
 * **Level-order traversal** of nodes
 * **Time Complexity:** O(V + E)
 * **Space Complexity:** O(V)
+---
 [View Breadth first serach code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bfs.cpp){:target="_blank"}<br>
+<br><br>
+
+## **Graph Traversal & Shortest Path Algorithms in Microsoft Products (Bing Maps, Azure, LinkedIn)**
+
+
+### **4. Priority Queues for Job Prioritization in Microsoft Azure**
+
+**Application in Microsoft:**
+Microsoft Azure can use priority queues to schedule and prioritize cloud jobs, tasks, and virtual machine requests. For example, Azure Batch or Azure Kubernetes Services (AKS) schedules tasks based on urgency, user-defined priority, and system resource availability using a heap-based priority queue.
+
+**Challenges:**
+
+* Efficient task scheduling in massively distributed systems
+* Fair resource allocation among competing jobs
+* Supporting preemption, dynamic scaling, and SLA-based dispatching
+
+**Market Benefits:**
+
+* Improved resource utilization and task throughput
+* Better support for real-time, mission-critical applications
+* Higher customer satisfaction via SLA adherence and fast response
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/priority_queue.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [9] Priority Queues for job prioritization in microsoft azure.
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* Min-Heap / Max-Heap implementation of Priority Queues
+
+* Tasks/jobs ordered by custom priority scores or timestamps
+
+* Used in: Azure Batch Scheduler, Azure Functions runtime, AKS, and VM provisioning logic
+
+* **Time Complexity:**
+
+  * Insertion into Priority Queue: O(log N)
+  * Fetch highest/lowest priority task: O(1)
+  * Deletion (pop): O(log N)
+
+* **Space Complexity:** O(N), where N = number of active jobs/tasks in the queue
+---
+[View Priority Queue code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/priority_queue.cpp){:target="_blank"}<br>
+<br><br>
 
 <br><br><br>
 # 4.Use Case and Efficiency Overview
