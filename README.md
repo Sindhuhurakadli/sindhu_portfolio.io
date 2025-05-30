@@ -220,6 +220,49 @@ This can be used in Microsoft security tools like BitLocker or Windows Defender 
 * **Space Complexity:** O(1), since only a few bits or integers are used regardless of data size
 
 [View Bit Manipulation code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bit.cpp){:target="_blank"}<br>
+
+<br><br>
+
+### **7. Heaps in Microsoft Store’s Recommendation Engine**
+
+This can be used in the Microsoft Store to show users the most relevant or trending apps by maintaining a list of top-rated or most-clicked products. Heaps help efficiently manage and update the top-K product recommendations in real time as user interactions or product rankings change.
+
+**Application in Microsoft:**
+Microsoft Store uses heaps to keep track of the top-K apps or products based on factors like relevance score, user activity, and purchase trends. As a user browses, heaps quickly pull the most relevant items from massive datasets to recommend in real time.
+
+**Challenges:**
+
+* Handling millions of users and products efficiently.
+* Updating recommendations instantly as user preferences or product popularity changes.
+
+**Market Benefits:**
+
+* Faster and personalized recommendations during browsing.
+* Higher user engagement with more relevant suggestions.
+* Increased app sales through better product discovery.
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/binary-heap-update.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [5] Heap of product recommendation.
+  <br>
+</p><br>
+
+### **Algorithms, Design Techniques, and Performance Analysis**
+
+* **Techniques Used:**
+
+  * **Min-Heap / Max-Heap:** To maintain the top-K elements (e.g., most relevant apps).
+  * **Priority Queue:** To dynamically sort products based on user relevance scores.
+  * **Heap Sort (if needed):** For final sorted recommendations.
+
+* **Time Complexity:**
+
+  * Insertion into heap: **O(log K)**
+  * Extracting top-K items: **O(K log K)**
+
+* **Space Complexity:**
+* **O(K)**, where K is the number of top items being tracked.
+[View Heap operations code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/heap.cpp){:target="_blank"}<br>
 <br><br><br>
 # 4.Use Case and Efficiency Overview
 <br>
