@@ -368,7 +368,7 @@ BFS is used in Bing Maps for computing the shortest path in unweighted graphs or
 ## **Graph Traversal & Shortest Path Algorithms in Microsoft Products (Bing Maps, Azure, LinkedIn)**
 
 
-### **4. Priority Queues for Job Prioritization in Microsoft Azure**
+### **6. Priority Queues for Job Prioritization in Microsoft Azure**
 
 **Application in Microsoft:**
 Microsoft Azure can use priority queues to schedule and prioritize cloud jobs, tasks, and virtual machine requests. For example, Azure Batch or Azure Kubernetes Services (AKS) schedules tasks based on urgency, user-defined priority, and system resource availability using a heap-based priority queue.
@@ -408,6 +408,46 @@ Microsoft Azure can use priority queues to schedule and prioritize cloud jobs, t
 ---
 [View Priority Queue code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/priority_queue.cpp){:target="_blank"}<br>
 <br><br>
+
+### **7. Skip Lists in Microsoft Azure Table Storage & Search Indexing**
+
+**Application in Microsoft:**
+Skip lists can be utilized in Microsoft Azure Table Storage and Microsoft Search (e.g., Outlook Search, Bing Enterprise Search) to maintain sorted indexes of entities, documents, or records based on keys like timestamps, relevance, or custom scores. They allow fast insertions, deletions, and searches in distributed key-value stores or full-text indexes.
+
+**Challenges:**
+
+* Maintaining sorted access to large-scale dynamic data
+* Achieving low-latency range queries and insertions** in scalable cloud systems
+* Avoiding lock contention and excessive rebalancing (as in traditional trees)
+
+**Market Benefits:**
+
+* Faster indexing and querying for enterprise search and storage
+* Real-time updates to search indexes without full reprocessing
+* Improved performance in document retrieval and structured logging systems
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/skip_list.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [9] Skip Lists in Microsoft Azure Table Storage & Search Indexing
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **Skip Lists:** Probabilistic balancing via multiple levels
+
+* **Layered linked lists** simulate balanced trees with simpler logic
+
+* **Used in:** Azure Table Storage, Microsoft Search backend components
+
+* **Time Complexity:**
+
+  * **Search:** O(log n) on average
+  * **Insertion:** O(log n) on average
+  * **Deletion:** O(log n) on average
+
+* **Space Complexity:** O(n), where n is the number of elements in the skip list
+---
+[View Skip List code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/skiplist.cpp){:target="_blank"}<br>
 
 <br><br><br>
 # 4.Use Case and Efficiency Overview
