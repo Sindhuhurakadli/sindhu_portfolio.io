@@ -91,7 +91,6 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 
 4. To provide a detailed analysis of each algorithm’s complexity and performance.
 <br><br><br>
-<br>
 # 3.Business Use Cases➡️Algorithmic Solutions
 
 ### **1. Hash Tables in Microsoft Outlook (Email Deduplication and Search)**
@@ -102,14 +101,14 @@ Hash tables in Microsoft Outlook can be used to improve performance by giving ea
 
 **Challenges:**
 
-* Must be **very fast** so Outlook feels smooth.
-* Needs to avoid **mix-ups** where different emails get the same code.
+* Must be very fast so Outlook feels smooth.
+* Needs to avoid mix-ups where different emails get the same code.
 
 **Why it’s useful:**
 
-* **Faster email search and better organization.**
-* **Saves space** by removing repeated emails.
-* **Improves user experience**, making Outlook quicker and easier to use.
+* Faster email search and better organization.
+* Saves space by removing repeated emails.
+* Improves user experience, making Outlook quicker and easier to use.
 <p align="center">
   <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/2016-05-07-objc-hashtable-hashstate-next.gif?raw=true" alt="Microsoft Infrastructure">
   <br>
@@ -130,22 +129,22 @@ Hash tables in Microsoft Outlook can be used to improve performance by giving ea
 
 <br><br>
 
-### **Segment Trees in Microsoft (Azure Monitoring and Analytics)**
+### **2.Segment Trees in Microsoft (Azure Monitoring and Analytics)**
 
-**Can be used** in Microsoft Azure to analyze system logs or monitor metrics like CPU or memory usage over time. Segment trees make it easy to quickly calculate things like the average CPU usage between two time points, even when handling large amounts of data.
+Can be used in Microsoft Azure to analyze system logs or monitor metrics like CPU or memory usage over time. Segment trees make it easy to quickly calculate things like the average CPU usage between two time points, even when handling large amounts of data.
 
 **Challenges:**
-Handling **large and constantly changing datasets** while still giving fast results for real-time dashboards.
+Handling large and constantly changing datasets while still giving fast results for real-time dashboards.
 
 **Market Benefits:**
 
-* **Faster dashboard updates** with live metrics.
-* **Better real-time analytics** for users to monitor and respond to system issues quickly.
+* Faster dashboard updates with live metrics.
+* Better real-time analytics for users to monitor and respond to system issues quickly.
 
 <p align="center">
   <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/segment_tree.gif?raw=true" alt="Microsoft Infrastructure">
   <br>
-  [1] Segment Tree for monitoring and analytics
+  [2] Segment Tree for monitoring and analytics
   <br>
 </p><br>
 ### **Algorithms, Design Techniques, and Performance Analysis**
@@ -157,25 +156,25 @@ Handling **large and constantly changing datasets** while still giving fast resu
 [View Segment tree's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/segment_tree.cpp){:target="_blank"}<br>
 <br><br>
 
-### **Tries in Microsoft Word (Spell Checking and Autocomplete)**
+### **3.Tries in Microsoft Word (Spell Checking and Autocomplete)**
 
 Tries can be used in Microsoft Word to store dictionary words in a way that allows fast and efficient lookup based on prefixes. Tries (also called prefix trees) help Word quickly check if a word is spelled correctly and offer suggestions as you type.
 
 **Application in Microsoft:**
-Tries store thousands of dictionary words in a tree-like structure, where each node represents a character. This allows Word to instantly find all words that begin with a certain prefix, making features like **spell check**, **autocomplete**, and **word suggestions** very fast and accurate.
+Tries store thousands of dictionary words in a tree-like structure, where each node represents a character. This allows Word to instantly find all words that begin with a certain prefix, making features like spell check, autocomplete, and word suggestions very fast and accurate.
 
 **Challenges:**
 Managing the storage and fast retrieval of **hundreds of thousands of words**, while keeping the memory usage efficient and ensuring **prefix-based search** works instantly.
 
 **Market Benefits:**
 
-* **Real-time typing assistance** through fast and smart word suggestions.
-* **Accurate spell checking**, improving writing quality.
-* **Enhanced user experience**, especially for fast typers and professional writers.
+* Real-time typing assistance through fast and smart word suggestions.
+* Accurate spell checking, improving writing quality.
+* Enhanced user experience, especially for fast typers and professional writers.
 <p align="center">
   <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/tries.gif?raw=true" alt="Microsoft Infrastructure">
   <br>
-  [1] Tries for spelling checking and autocomplition
+  [3] Tries for spelling checking and autocomplition
   <br>
 </p><br>
 
@@ -186,7 +185,41 @@ Managing the storage and fast retrieval of **hundreds of thousands of words**, w
 * **Time Complexity:** O(L) per operation (L = length of the word or prefix)
 * **Space Complexity:** O(N × L), where N is the number of words stored, and L is the average length of words (because each character needs its own node in the tree)
 [View Tries code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/tries.cpp){:target="_blank"}<br>
+<br><br>
 
+### **4. Bit Manipulation in Microsoft Security (Access Control & Encryption)**
+
+This can be used in Microsoft security tools like BitLocker or Windows Defender to perform fast and efficient low-level operations. Bit manipulation allows the system to quickly manage permissions and handle encryption tasks using compact and high-speed logic.
+
+**Application in Microsoft:**
+
+* Bit masks are used to assign and check user permissions, like read/write/execute rights.
+* Bitwise operations are used in encryption algorithms to ensure data is securely encoded or decoded, especially in tools like BitLocker.
+
+**Challenges:**
+
+* Needs to be extremely fast and efficient, especially at the operating system level.
+* Must use minimal memory and CPU, particularly for real-time security checks and cryptographic operations.
+
+**Market Benefits:**
+
+* Faster access control, making systems more responsive.
+* Lightweight and secure encryption, protecting user data without slowing down performance.
+* Supports scalable and secure computing, crucial for enterprise environments.
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/bit_manu.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [4] Bit Manipulation for Access Control & Encryption.
+  <br>
+</p><br>
+
+### **Algorithms, Design Techniques, and Performance Analysis**
+
+* **Technique:** Bit Masking, Bitwise Operations
+* **Time Complexity:** O(1) for most operations like AND, OR, XOR, and shifts
+* **Space Complexity:** O(1), since only a few bits or integers are used regardless of data size
+
+[View Bit Manipulation code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bit.cpp){:target="_blank"}<br>
 <br><br><br>
 # 4.Use Case and Efficiency Overview
 <br>
