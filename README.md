@@ -152,7 +152,9 @@ Handling large and constantly changing datasets while still giving fast results 
 * **Technique:** Divide and Conquer
 * **Enhancement:** Lazy Propagation (for efficient range updates)
 * **Time Complexity:** O(log N) per query or update, where N is the number of data points
-* **Space Complexity:** O(N), because it stores extra information for each segment in a tree structure
+* **Space Complexity:** O(N)
+
+  
 ---
 [View Segment tree's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/segment_tree.cpp){:target="_blank"}<br>
 <br><br>
@@ -173,7 +175,7 @@ Managing the storage and fast retrieval of **hundreds of thousands of words**, w
 * Accurate spell checking, improving writing quality.
 * Enhanced user experience, especially for fast typers and professional writers.
 <p align="center">
-  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/tries.gif?raw=true" alt="Microsoft Infrastructure">
+  <img src="https://github.com/jiyapalrecha35/Google.github.io/blob/main/images/submission%20throttling.gif?raw=true" alt="Microsoft Infrastructure">
   <br>
   [3] Tries for spelling checking and autocomplition
   <br>
