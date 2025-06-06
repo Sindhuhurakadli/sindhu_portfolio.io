@@ -185,6 +185,8 @@ Managing the storage and fast retrieval of **hundreds of thousands of words**, w
 * **Design Technique:** Character-based hierarchical tree
 * **Time Complexity:** O(L) per operation (L = length of the word or prefix)
 * **Space Complexity:** O(N × L), where N is the number of words stored, and L is the average length of words (because each character needs its own node in the tree)
+
+  
 ---
 [View Tries code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/tries.cpp){:target="_blank"}<br>
 <br><br>
@@ -220,6 +222,7 @@ This can be used in Microsoft security tools like BitLocker or Windows Defender 
 * **Technique:** Bit Masking, Bitwise Operations
 * **Time Complexity:** O(1) for most operations like AND, OR, XOR, and shifts
 * **Space Complexity:** O(1), since only a few bits or integers are used regardless of data size
+* 
 ---
 
 [View Bit Manipulation code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bit.cpp){:target="_blank"}<br>
@@ -265,6 +268,7 @@ Microsoft Store uses heaps to keep track of the top-K apps or products based on 
 
 * **Space Complexity:**
 * **O(K)**, where K is the number of top items being tracked
+* 
 ---
 [View Heap operations code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/heap.cpp){:target="_blank"}<br>
 
@@ -299,6 +303,8 @@ Dijkstra’s algorithm is used in Bing Maps to find the shortest path between tw
 * **Greedy + Dynamic Programming approach**
 * **Time Complexity:** O((V + E) log V)
 * **Space Complexity:** O(V)
+
+---
 [View Dijkstra's code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/dijkstra.cpp){:target="_blank"}<br>
 
 #### **II. A\* Algorithm in Bing Maps (Microsoft)**
@@ -330,6 +336,7 @@ A\* is used in Bing Maps for efficient and intelligent pathfinding. It enhances 
 * **f(n) = g(n) + h(n)** (cost so far + estimated cost to goal)
 * **Time Complexity:** O((V + E) log V) depending on heuristic quality
 * **Space Complexity:** O(V)
+* 
 ---
 [View A\* Search Algorithm code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/A_search){:target="_blank"}<br>
 
@@ -403,6 +410,8 @@ Microsoft Azure can use priority queues to schedule and prioritize cloud jobs, t
   * Deletion (pop): O(log N)
 
 * **Space Complexity:** O(N), where N = number of active jobs/tasks in the queue
+
+  
 ---
 [View Priority Queue code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/priority_queue.cpp){:target="_blank"}<br>
 <br><br>
@@ -444,6 +453,8 @@ Skip lists can be utilized in Microsoft Azure Table Storage and Microsoft Search
   * **Deletion:** O(log n) on average
 
 * **Space Complexity:** O(n), where n is the number of elements in the skip list
+
+  
 ---
 [View Skip List code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/skiplist.cpp){:target="_blank"}<br>
 <br><br>
@@ -485,21 +496,20 @@ It also appears in project planning tools like Microsoft Project, where workers 
   * **Greedy Approaches:** O(n²) or faster for real-time heuristics
 
 * **Space Complexity:** O(n²) for storing cost matrix
+
+  
 ---
 [View Assignment problem code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/assigmnet.cpp){:target="_blank"}<br>
 <br><br>
-Absolutely! Below is a **separate breakdown** for each **sorting algorithm** used in **Windows Explorer** and **Azure Storage**, formatted exactly like before:
 
----
-
-## **10. Sorting Algorithms in Microsoft Products (Windows Explorer, Azure Storage)**
+### **10. Sorting Algorithms in Microsoft Products (Windows Explorer, Azure Storage)**
 
 ---
 
 ### **I Merge Sort in Windows Explorer File Sorting**
 
 **Application in Microsoft:**
-**Merge Sort** can be used in **Windows Explorer** to sort files by name, date, type, or size, especially when stable sorting is required (e.g., files with equal names are ordered by last modified date). Its divide-and-conquer approach ensures predictable performance even on large datasets.
+Merge Sort can be used in Windows Explorer to sort files by name, date, type, or size, especially when stable sorting is required (e.g., files with equal names are ordered by last modified date). Its divide-and-conquer approach ensures predictable performance even on large datasets.
 
 **Challenges:**
 
@@ -534,7 +544,7 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
 ### **II Quick Sort in Azure Table Storage Indexing**
 
 **Application in Microsoft:**
-**Quick Sort** can be often used in Azure Storage indexing engines (e.g., Table Storage) when quick in-memory sorting is required for non-stable or performance-first operations like sorting partitioned datasets by key or timestamp.
+Quick Sort can be often used in Azure Storage indexing engines (e.g., Table Storage) when quick in-memory sorting is required for non-stable or performance-first operations like sorting partitioned datasets by key or timestamp.
 
 **Challenges:**
 
@@ -565,14 +575,15 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
   * Worst: O(n²)
 
 * **Space Complexity:** O(log n)
+
+---
 [View Quick sort code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/quicksort.cpp){:target="_blank"}<br>
 <br><br>
----
 
 ### **III Radix Sort in Azure Blob Storage Key Sorting**
 
 **Application in Microsoft:**
-**Radix Sort** can be used in Azure Storage systems for **key-based sorting** of blobs or table rows when sorting by structured keys like timestamps, alphanumeric IDs, or UUIDs. It works well when the key size is fixed and predictable.
+Radix Sort can be used in Azure Storage systems for key-based sorting of blobs or table rows when sorting by structured keys like timestamps, alphanumeric IDs, or UUIDs. It works well when the key size is fixed and predictable.
 
 **Challenges:**
 
@@ -606,13 +617,10 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
 [View Radix sort code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/randixsort.cpp){:target="_blank"}<br>
 <br><br>
 
----
-
-
 ### **11. Modular Inverse in Azure Key Vault & Encryption**
 
 **Application in Microsoft:**
-**Modular Inverse** is crucial in **Azure Key Vault** and other cryptographic services that rely on **RSA encryption/decryption**, **digital signatures**, and **elliptic curve cryptography (ECC)**. It is used to compute the multiplicative inverse modulo `n`, essential in private key operations like computing `d` in RSA where $ed \equiv 1 \mod \phi(n)$.
+Modular Inverse is crucial in Azure Key Vault and other cryptographic services that rely on RSA encryption/decryption, digital signatures, and elliptic curve cryptography (ECC). It is used to compute the multiplicative inverse modulo `n`, essential in private key operations like computing `d` in RSA where $ed \equiv 1 \mod \phi(n)$.
 
 **Challenges:**
 
@@ -635,14 +643,15 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
 * **Time Complexity:** O(log n)
 
 * **Space Complexity:** O(1) (constant extra space)
-[View Modular inverse code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/modularinverse.cpp){:target="_blank"}<br>
-<br><br>
+
 ---
+[View Modular inverse code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/modularinverse.cpp){:target="_blank"}<br>
+<br>
 
 ### **12. Fermat’s Little Theorem in Azure Cryptographic Protocols**
 
 **Application in Microsoft:**
-**Fermat’s Little Theorem** is used in **Azure’s cryptographic functions**, especially in **modular exponentiation**, **primality testing**, and **efficient inverse computation** when the modulus is a prime number. It's commonly applied in RSA, Diffie-Hellman key exchange, and signature schemes.
+Fermat’s Little Theorem is used in Azure’s cryptographic functions, especially in modular exponentiation, primality testing, and efficient inverse computation when the modulus is a prime number. It's commonly applied in RSA, Diffie-Hellman key exchange, and signature schemes.
 
 **Challenges:**
 
@@ -674,7 +683,7 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
 ### **13 Prime Factorization in Azure Key Lifecycle Management (RSA Security)**
 
 **Application in Microsoft:**
-**Prime Factorization** underlies the security of RSA, used in **Azure Active Directory**, **Azure Key Vault**, and **Azure confidential computing**. Though Azure never factors primes directly, the **difficulty of factorization** ensures the hardness of breaking RSA keys (i.e., computing `d` without knowing the primes `p`, `q`).
+Prime Factorization underlies the security of RSA, used in Azure Active Directory, Azure Key Vault, and Azure confidential computing. Though Azure never factors primes directly, the difficulty of factorization ensures the hardness of breaking RSA keys (i.e., computing `d` without knowing the primes `p`, `q`).
 
 **Challenges:**
 
@@ -707,14 +716,12 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
 [View Prime factorization code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/primefactor.cpp){:target="_blank"}<br>
 <br><br>
 
-## **14. Indexing in Microsoft Databases (SQL Server, Azure SQL, Cosmos DB)**
-
----
+### **14. Indexing in Microsoft Databases (SQL Server, Azure SQL, Cosmos DB)**
 
 ### **I Binary Search Tree (BST) in Basic Indexing and Query Execution**
 
 **Application in Microsoft:**
-**Binary Search Trees (BSTs)** are foundational structures in indexing. In SQL Server and **Azure SQL**, simplified forms of BSTs are used in **expression evaluation**, **query planning**, and certain **non-balanced index structures** where insertions are infrequent but lookups are common.
+Binary Search Trees (BSTs) are foundational structures in indexing. In SQL Server and Azure SQL, simplified forms of BSTs are used in expression evaluation, query planning, and certain non-balanced index structures where insertions are infrequent but lookups are common.
 
 **Challenges:**
 
@@ -750,7 +757,7 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
 ### **II AVL Tree in Azure Cosmos DB Query Indexes**
 
 **Application in Microsoft:**
-**AVL Trees** are used in **read-intensive applications** within **Cosmos DB** or in in-memory database engines like **SQL Server In-Memory OLTP**. These trees self-balance after each insert/delete, ensuring consistent performance.
+AVL Trees are used in read-intensive applications within Cosmos DB or in in-memory database engines like SQL Server In-Memory OLTP. These trees self-balance after each insert/delete, ensuring consistent performance.
 
 **Challenges:**
 
@@ -783,7 +790,7 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
 ### **III Red-Black Tree in SQL Server & Azure Storage Indexing**
 
 **Application in Microsoft:**
-**Red-Black Trees** are widely used in **SQL Server’s B+-tree index maintenance**, **lock manager subsystems**, and **internal heaps**. They provide a balance between performance and simplicity for dynamic insertions/deletions, ensuring tree height stays within 2x of the optimal.
+Red-Black Trees are widely used in SQL Server’s B+-tree index maintenance, lock manager subsystems, and internal heaps. They provide a balance between performance and simplicity for dynamic insertions/deletions, ensuring tree height stays within 2x of the optimal.
 
 **Challenges:**
 
