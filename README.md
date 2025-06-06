@@ -822,7 +822,7 @@ Red-Black Trees are widely used in SQL Server’s B+-tree index maintenance, loc
 ### **IV Binary Tree Variants in Full-Text Search & Query Optimization**
 
 **Application in Microsoft:**
-General **Binary Trees** are used in **full-text search indexing**, **query parse trees**, and **expression evaluations** in Microsoft’s database systems. They allow fast traversal and structural representation of parsed SQL or search queries.
+General Binary Trees are used in full-text search indexing, query parse trees, and expression evaluations in Microsoft’s database systems. They allow fast traversal and structural representation of parsed SQL or search queries.
 
 **Challenges:**
 
