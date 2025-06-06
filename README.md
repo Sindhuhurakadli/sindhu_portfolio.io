@@ -426,7 +426,7 @@ Skip lists can be utilized in Microsoft Azure Table Storage and Microsoft Search
 <p align="center">
   <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/skip_list.gif?raw=true" alt="Microsoft Infrastructure">
   <br>
-  [9] Skip Lists in Microsoft Azure Table Storage & Search Indexing
+  [10] Skip Lists in Microsoft Azure Table Storage & Search Indexing
   <br>
 </p><br>
 **Algorithms, Design Techniques, Performance Analysis:**
@@ -485,10 +485,126 @@ It also appears in project planning tools like Microsoft Project, where workers 
   * **Greedy Approaches:** O(n²) or faster for real-time heuristics
 
 * **Space Complexity:** O(n²) for storing cost matrix
-
 ---
 [View Assignment problem code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/assigmnet.cpp){:target="_blank"}<br>
+<br><br>
+Absolutely! Below is a **separate breakdown** for each **sorting algorithm** used in **Windows Explorer** and **Azure Storage**, formatted exactly like before:
 
+---
+
+## **10. Sorting Algorithms in Microsoft Products (Windows Explorer, Azure Storage)**
+
+---
+
+### **I Merge Sort in Windows Explorer File Sorting**
+
+**Application in Microsoft:**
+**Merge Sort** can be used in **Windows Explorer** to sort files by name, date, type, or size, especially when stable sorting is required (e.g., files with equal names are ordered by last modified date). Its divide-and-conquer approach ensures predictable performance even on large datasets.
+
+**Challenges:**
+
+* Stability needed during complex multi-criteria sorting
+* Memory efficiency for large folder structures
+* Responsive UI sorting in Explorer while handling background file changes
+
+**Market Benefits:**
+
+* Reliable and consistent sorting of file attributes
+* Predictable performance even with large file systems
+* Enhanced user experience for sorting large directories
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/How-merge-sort-works.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [11]  Merge Sort in Windows Explorer File Sorting
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **Merge Sort:** Divide-and-conquer, stable sorting
+
+* **Used in:** Internal sorting mechanisms in Windows Explorer
+
+* **Time Complexity:** O(n log n)
+
+* **Space Complexity:** O(n)
+
+---
+[View Merge sort code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/mergesort.cpp){:target="_blank"}<br>
+<br><br>
+### **II Quick Sort in Azure Table Storage Indexing**
+
+**Application in Microsoft:**
+**Quick Sort** can be often used in Azure Storage indexing engines (e.g., Table Storage) when quick in-memory sorting is required for non-stable or performance-first operations like sorting partitioned datasets by key or timestamp.
+
+**Challenges:**
+
+* Efficient in-memory sort for real-time data operations
+* Handling large volumes of requests on dynamic datasets
+* Optimizing for average-case time over stability
+
+**Market Benefits:**
+
+* Fast indexing for real-time key lookups
+* Lower overhead for small-to-medium Azure tables
+* Suitable for parallelized sorting in distributed environments
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/quick%20sort.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [12] Quick Sort in Azure Table Storage Indexing
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **Quick Sort:** Divide-and-conquer, unstable, in-place
+
+* **Used in:** In-memory sorting operations during Azure indexing or cache warm-up
+
+* **Time Complexity:**
+
+  * Average: O(n log n)
+  * Worst: O(n²)
+
+* **Space Complexity:** O(log n)
+[View Quick sort code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/quicksort.cpp){:target="_blank"}<br>
+<br><br>
+---
+
+### **III Radix Sort in Azure Blob Storage Key Sorting**
+
+**Application in Microsoft:**
+**Radix Sort** can be used in Azure Storage systems for **key-based sorting** of blobs or table rows when sorting by structured keys like timestamps, alphanumeric IDs, or UUIDs. It works well when the key size is fixed and predictable.
+
+**Challenges:**
+
+* High-performance key sorting in large distributed systems
+* Avoiding comparison-based sorting for fixed-length keys
+* Ensuring scalability across millions of records
+
+**Market Benefits:**
+
+* Fast sorting for fixed-format identifiers
+* Improved throughput for indexing and metadata search
+* Efficient pre-processing for range queries in blob and table storage
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/radixsort.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [13] Radix Sort in Azure Blob Storage Key Sorting
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **Radix Sort:** Non-comparison sort for fixed-length data
+
+* **Used in:** Azure Blob/Table Storage indexing layers
+
+* **Time Complexity:** O(nk), where k = key length
+
+* **Space Complexity:** O(n + k)
+
+---
+
+[View Radix sort code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/randixsort.cpp){:target="_blank"}<br>
+<br><br>
 <br><br><br>
 # 4.Use Case and Efficiency Overview
 <br>
