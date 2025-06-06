@@ -224,7 +224,7 @@ This can be used in Microsoft security tools like BitLocker or Windows Defender 
 * **Technique:** Bit Masking, Bitwise Operations
 * **Time Complexity:** O(1) for most operations like AND, OR, XOR, and shifts
 * **Space Complexity:** O(1), since only a few bits or integers are used regardless of data size
-* 
+
 ---
 
 [View Bit Manipulation code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bit.cpp){:target="_blank"}<br>
@@ -270,7 +270,8 @@ Microsoft Store uses heaps to keep track of the top-K apps or products based on 
 
 * **Space Complexity:**
 * **O(K)**, where K is the number of top items being tracked
-* 
+
+
 ---
 [View Heap operations code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/heap.cpp){:target="_blank"}<br>
 
@@ -338,7 +339,8 @@ A\* is used in Bing Maps for efficient and intelligent pathfinding. It enhances 
 * **f(n) = g(n) + h(n)** (cost so far + estimated cost to goal)
 * **Time Complexity:** O((V + E) log V) depending on heuristic quality
 * **Space Complexity:** O(V)
-* 
+
+  
 ---
 [View A\* Search Algorithm code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/A_search){:target="_blank"}<br>
 
@@ -369,7 +371,7 @@ BFS is used in Bing Maps for computing the shortest path in unweighted graphs or
 * **Breadth-First Search (BFS)** using a queue
 * **Level-order traversal** of nodes
 * **Time Complexity:** O(V + E)
-* **Space Complexity:** O(V)
+* **space complexity:** O(v)
 ---
 [View Breadth first serach code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/bfs.cpp){:target="_blank"}<br>
 <br><br>
