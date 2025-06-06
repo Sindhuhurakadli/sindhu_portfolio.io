@@ -605,6 +605,107 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
 
 [View Radix sort code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/randixsort.cpp){:target="_blank"}<br>
 <br><br>
+
+---
+
+
+### **11. Modular Inverse in Azure Key Vault & Encryption**
+
+**Application in Microsoft:**
+**Modular Inverse** is crucial in **Azure Key Vault** and other cryptographic services that rely on **RSA encryption/decryption**, **digital signatures**, and **elliptic curve cryptography (ECC)**. It is used to compute the multiplicative inverse modulo `n`, essential in private key operations like computing `d` in RSA where $ed \equiv 1 \mod \phi(n)$.
+
+**Challenges:**
+
+* Secure key generation and private key recovery
+* Ensuring operations are resistant to timing attacks
+* Precision and efficiency in large-number arithmetic
+
+**Market Benefits:**
+
+* Secure encryption/decryption with strong mathematical guarantees
+* Enables digital signatures and authentication protocols
+* Integral to RSA key lifecycle management in Azure Key Vault
+
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **Extended Euclidean Algorithm** for modular inverse
+
+* **Used in:** RSA decryption, ECC signature generation, Azure Key Vault, Azure Confidential Ledger
+
+* **Time Complexity:** O(log n)
+
+* **Space Complexity:** O(1) (constant extra space)
+[View Modular inverse code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/modularinverse.cpp){:target="_blank"}<br>
+<br><br>
+---
+
+### **12. Fermat’s Little Theorem in Azure Cryptographic Protocols**
+
+**Application in Microsoft:**
+**Fermat’s Little Theorem** is used in **Azure’s cryptographic functions**, especially in **modular exponentiation**, **primality testing**, and **efficient inverse computation** when the modulus is a prime number. It's commonly applied in RSA, Diffie-Hellman key exchange, and signature schemes.
+
+**Challenges:**
+
+* Efficient primality testing for key generation
+* Performing large exponentiations with modular constraints
+* Ensuring randomness and security in key operations
+
+**Market Benefits:**
+
+* Speeds up cryptographic computations
+* Reduces computational cost of public key operations
+* Strengthens security with mathematically sound checks
+
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* Fermat's Little Theorem: $a^{p-1} \equiv 1 \mod p$
+
+* Used for fast exponentiation, modular inverses (with prime moduli)
+
+* **Used in:** RSA/ECC in Azure Key Vault, Azure TLS handshakes, Azure IoT Hub encryption
+
+* **Time Complexity:** O(log p) for modular exponentiation
+
+* **Space Complexity:** O(1)
+
+---
+[View Fermat’s Little Theorem code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/fermats.cpp){:target="_blank"}<br>
+<br><br>
+### **13 Prime Factorization in Azure Key Lifecycle Management (RSA Security)**
+
+**Application in Microsoft:**
+**Prime Factorization** underlies the security of RSA, used in **Azure Active Directory**, **Azure Key Vault**, and **Azure confidential computing**. Though Azure never factors primes directly, the **difficulty of factorization** ensures the hardness of breaking RSA keys (i.e., computing `d` without knowing the primes `p`, `q`).
+
+**Challenges:**
+
+* Generating large, secure primes for RSA keys
+* Preventing factorization attacks using quantum or lattice-based methods
+* Safeguarding keys against side-channel leaks
+
+**Market Benefits:**
+
+* Foundation of modern public-key security
+* Ensures trust in secure access control and identity verification
+* Vital for data protection, secure messaging, and trusted certificate chains
+
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* RSA security depends on infeasibility of factoring $n = pq$
+
+* Key generation uses probabilistic prime generation, not direct factorization
+
+* **Used in:** Azure Key Vault RSA keys, SSL/TLS in Azure Web Apps, Microsoft Defender Key Signing
+
+* **Time Complexity (Factorization):**
+
+  * Classical: Super-polynomial (e.g., $e^{(n \log n)^{1/3}}$)
+  * Quantum (Shor's Algorithm): Polynomial (not yet practical at scale)
+
+* **Space Complexity:** Varies with method
+
+---
+[View Prime factorization code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/primefactor.cpp){:target="_blank"}<br>
+<br><br>
 <br><br><br>
 # 4.Use Case and Efficiency Overview
 <br>
