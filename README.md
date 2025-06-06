@@ -706,6 +706,144 @@ Absolutely! Below is a **separate breakdown** for each **sorting algorithm** use
 ---
 [View Prime factorization code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/primefactor.cpp){:target="_blank"}<br>
 <br><br>
+
+## **14. Indexing in Microsoft Databases (SQL Server, Azure SQL, Cosmos DB)**
+
+---
+
+### **I Binary Search Tree (BST) in Basic Indexing and Query Execution**
+
+**Application in Microsoft:**
+**Binary Search Trees (BSTs)** are foundational structures in indexing. In SQL Server and **Azure SQL**, simplified forms of BSTs are used in **expression evaluation**, **query planning**, and certain **non-balanced index structures** where insertions are infrequent but lookups are common.
+
+**Challenges:**
+
+* Maintaining order without enforcing balance
+* Dealing with degraded performance in unbalanced trees
+* Supporting low-insertion and read-heavy workloads
+
+**Market Benefits:**
+
+* Simpler logic for small-to-medium static index structures
+* Lower overhead when balanced trees aren't needed
+* Lightweight for in-memory filtering and decision trees
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/binary-search-tree-sorted-array-animation.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [14] Binary Search Tree (BST) in Basic Indexing and Query Execution
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* Simple BST insertion/search/delete
+* **Used in:** Expression trees, basic in-memory filtering
+* **Time Complexity:**
+
+  * Best/Average: O(log n)
+  * Worst: O(n) (unbalanced)
+* **Space Complexity:** O(n)
+
+---
+[View Binary search tree code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/binarysearchtree.cpp){:target="_blank"}<br>
+<br><br>
+
+### **II AVL Tree in Azure Cosmos DB Query Indexes**
+
+**Application in Microsoft:**
+**AVL Trees** are used in **read-intensive applications** within **Cosmos DB** or in in-memory database engines like **SQL Server In-Memory OLTP**. These trees self-balance after each insert/delete, ensuring consistent performance.
+
+**Challenges:**
+
+* Maintaining balance during frequent updates
+* Higher rotation cost than red-black trees
+* Overhead in memory for storing balance factors
+
+**Market Benefits:**
+
+* Faster range queries and index lookups
+* Stable performance for real-time reads
+* Suitable for consistent, low-latency workloads
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/avltree.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [15] AVL Tree in Azure Cosmos DB Query Indexes
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* **AVL Tree:** Self-balancing BST using height differences
+* **Used in:** Memory-optimized table indexing, low-latency data queries
+* **Time Complexity:** O(log n) for all operations
+* **Space Complexity:** O(n)
+
+---
+[View AVL code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/avltree.cpp){:target="_blank"}<br>
+<br><br>
+
+### **III Red-Black Tree in SQL Server & Azure Storage Indexing**
+
+**Application in Microsoft:**
+**Red-Black Trees** are widely used in **SQL Server’s B+-tree index maintenance**, **lock manager subsystems**, and **internal heaps**. They provide a balance between performance and simplicity for dynamic insertions/deletions, ensuring tree height stays within 2x of the optimal.
+
+**Challenges:**
+
+* Maintaining balance during insertions/deletions
+* Managing color changes and rotations efficiently
+* Supporting large dynamic datasets
+
+**Market Benefits:**
+
+* Efficient and predictable indexing performance
+* Scales well with high-concurrency workloads
+* Reduces downtime for index rebuilding
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/red-black-tree.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [16] Red-Black Tree in SQL Server & Azure Storage Indexing
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* Red-Black Tree: Balanced binary tree with color rules
+* **Used in:** SQL Server B-tree base, query optimizer, row store indexes
+* **Time Complexity:** O(log n)
+* **Space Complexity:** O(n)
+
+---
+[View Red-Balck tree code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/redblacktree.cpp){:target="_blank"}<br>
+<br><br>
+### **IV Binary Tree Variants in Full-Text Search & Query Optimization**
+
+**Application in Microsoft:**
+General **Binary Trees** are used in **full-text search indexing**, **query parse trees**, and **expression evaluations** in Microsoft’s database systems. They allow fast traversal and structural representation of parsed SQL or search queries.
+
+**Challenges:**
+
+* Balancing tree construction speed with query complexity
+* Representing complex expressions in minimal space
+* Ensuring rapid traversal for query planning
+
+**Market Benefits:**
+
+* Boosts performance of keyword and semantic search
+* Supports advanced query evaluation in SQL Server & Azure Cognitive Search
+* Enables fine-grained token-level optimization
+<p align="center">
+  <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/binarytree.gif?raw=true" alt="Microsoft Infrastructure">
+  <br>
+  [17] Binary Tree Variants in Full-Text Search & Query Optimization
+  <br>
+</p><br>
+**Algorithms, Design Techniques, Performance Analysis:**
+
+* Binary Trees for structured representation of queries and tokens
+* **Used in:** Full-text indexing engine, expression parsers, execution plan evaluators
+* **Time Complexity:** O(log n) (when balanced)
+* **Space Complexity:** O(n)
+
+---
+[View binary tree code here](https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/codes/binarytree.cpp){:target="_blank"}<br>
+<br><br>
 <br><br><br>
 # 4.Use Case and Efficiency Overview
 <br>
