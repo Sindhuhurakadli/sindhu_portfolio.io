@@ -1,70 +1,92 @@
-class Node:
-    def __init__(self, point, depth=0, left=None, right=None):
-        self.point = point      # k-dimensional point (e.g., [2, 3])
-        self.left = left        # Left subtree
-        self.right = right      # Right subtree
-        self.depth = depth      # Depth of node in tree
+#include <iostream>
+#include <vector>
 
-class KDTree:
-    def __init__(self, k):
-        self.k = k             # Number of dimensions
-        self.root = None       # Root node
+using namespace std;
 
-    def insert(self, point):
-        def _insert_rec(node, point, depth):
-            if node is None:
-                return Node(point, depth)
+const int k = 2; // Dimensions
 
-            cd = depth % self.k  # Current dimension
+struct Node {
+    vector<int> point; // Stores k-dimensional point
+    Node *left, *right;
 
-            if point[cd] < node.point[cd]:
-                node.left = _insert_rec(node.left, point, depth + 1)
-            else:
-                node.right = _insert_rec(node.right, point, depth + 1)
-            return node
+    Node(vector<int> arr) : point(arr), left(NULL), right(NULL) {}
+};
 
-        self.root = _insert_rec(self.root, point, 0)
+// Insert a new point into the K-D Tree
+Node* insertRec(Node* root, vector<int> point, unsigned depth) {
+    if (root == NULL)
+        return new Node(point);
 
-    def search(self, point):
-        def _search_rec(node, point, depth):
-            if node is None:
-                return False
-            if node.point == point:
-                return True
+    // Calculate current dimension
+    unsigned cd = depth % k;
 
-            cd = depth % self.k
+    if (point[cd] < root->point[cd])
+        root->left = insertRec(root->left, point, depth + 1);
+    else
+        root->right = insertRec(root->right, point, depth + 1);
 
-            if point[cd] < node.point[cd]:
-                return _search_rec(node.left, point, depth + 1)
-            else:
-                return _search_rec(node.right, point, depth + 1)
+    return root;
+}
 
-        return _search_rec(self.root, point, 0)
+Node* insert(Node* root, vector<int> point) {
+    return insertRec(root, point, 0);
+}
 
-    def preorder(self):
-        def _preorder(node):
-            if node is not None:
-                print(node.point)
-                _preorder(node.left)
-                _preorder(node.right)
-        _preorder(self.root)
+// Search a point in the K-D Tree
+bool searchRec(Node* root, vector<int> point, unsigned depth) {
+    if (root == NULL)
+        return false;
+    if (root->point == point)
+        return true;
 
+    // Calculate current dimension
+    unsigned cd = depth % k;
 
-# Example usage
-if __name__ == "__main__":
-    k = 2  # 2-dimensional KD Tree
-    points = [[3, 6], [17, 15], [13, 15], [6, 12],
-              [9, 1], [2, 7], [10, 19]]
+    if (point[cd] < root->point[cd])
+        return searchRec(root->left, point, depth + 1);
+    else
+        return searchRec(root->right, point, depth + 1);
+}
 
-    tree = KDTree(k)
-    for point in points:
-        tree.insert(point)
+bool search(Node* root, vector<int> point) {
+    return searchRec(root, point, 0);
+}
 
-    print("Preorder traversal of KD Tree:")
-    tree.preorder()
+// Preorder Traversal
+void preorder(Node* root) {
+    if (root != NULL) {
+        cout << "(";
+        for (int i = 0; i < k; ++i) {
+            cout << root->point[i];
+            if (i != k - 1) cout << ", ";
+        }
+        cout << ")\n";
 
-    search_point = [10, 19]
-    if tree.search(search_point):
-        print(f"\nPoint {search_point} found in the KD Tree.")
-    else:
-        print(f"\nPoint {search_point} not found in the KD Tree.")
+        preorder(root->left);
+        preorder(root->right);
+    }
+}
+
+// Driver Code
+int main() {
+    vector<vector<int>> points = {
+        {3, 6}, {17, 15}, {13, 15},
+        {6, 12}, {9, 1}, {2, 7}, {10, 19}
+    };
+
+    Node* root = NULL;
+    for (auto& point : points) {
+        root = insert(root, point);
+    }
+
+    cout << "Preorder traversal of K-D Tree:\n";
+    preorder(root);
+
+    vector<int> target = {10, 19};
+    if (search(root, target))
+        cout << "\nPoint (" << target[0] << ", " << target[1] << ") found in the KD Tree.\n";
+    else
+        cout << "\nPoint (" << target[0] << ", " << target[1] << ") not found in the KD Tree.\n";
+
+    return 0;
+}
