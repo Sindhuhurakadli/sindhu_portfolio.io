@@ -169,7 +169,9 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 |      15 | **15. Circular Queue in Azure, Windows OS, Microsoft Teams** | -Circular queue                       |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |
 |      16 | **16. Stack in Word, Outlook, Visual Studio** | -Stack                                                |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |   
 |      17 | **17. Deque (Double-Ended Queue)**  |  -Deque                                                          |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |  
-|      18 | **18. Fenwick Tree (Binary Indexed Tree) for Efficient Range Queries and Updates in Microsoft Technologies**  |-Fenwick tree   |  🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |     
+|      18 | **18. Fenwick Tree (Binary Indexed Tree) for Efficient Range Queries and Updates in Microsoft Technologies**  |-Fenwick tree   |  🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |  
+|      19 | **19. Knuth-Morris-Pratt (KMP) Algorithm for Pattern Matching in Bing Search Optimization** | -KMP      |  🔹 Time: `O(n+m)` <br> 🔹 Space: `O(n+m)`                           |
+|      20 | **20. Bitmasking Can Be Used for Configuration State Management in Office 365 Optimization**             |  🔹 Time: `O(2ⁿ)` <br> 🔹 Space: `O(2ⁿ)`                           |
 
 ## 5.Learnings and Key Takeaways
 
