@@ -91,21 +91,34 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 
 4. To provide a detailed analysis of each algorithm’s complexity and performance.
 <br><br>
-# 3.Business Use Cases
+# 3.Use Cases ➡️Algorithmic Solutions
 
  [**1. Hash Tables in Microsoft Outlook (Email Deduplication and Search)**](./business/1.md)
+ 
  [**2.Segment Trees in Microsoft (Azure Monitoring and Analytics)**](./business/2.md)
+ 
  [**3.Tries in Microsoft Word (Spell Checking and Autocomplete)**](./business/3.md)
+ 
  [**4. Bit Manipulation in Microsoft Security (Access Control & Encryption)**](./business/4.md)
+ 
  [**5. Heaps in Microsoft Store’s Recommendation Engine**](./business/5.md)
+ 
  [**6.Graph Traversal & Shortest Path Algorithms in Microsoft Products (Bing Maps, Azure, LinkedIn)**](./business/6.md)
+ 
  [**7. Priority Queues for Job Prioritization in Microsoft Azure**](./business/7.md)
+ 
  [**8. Skip Lists in Microsoft Azure Table Storage & Search Indexing**](./business/8.md)
+ 
  [**9. Assignment Problem in Microsoft Azure Resource Allocation & Project Scheduling**](./business/9.md)
+ 
  [**10. Sorting Algorithms in Microsoft Products (Windows Explorer, Azure Storage)**](./business/10.md)
+ 
  [**11. Modular Inverse in Azure Key Vault & Encryption**](./business/11.md)
+ 
  [**12. Fermat’s Little Theorem in Azure Cryptographic Protocols**](./business/12.md)
+ 
  [**13 Prime Factorization in Azure Key Lifecycle Management (RSA Security)**](./business/13.md)
+ 
  [**14. Indexing in Microsoft Databases (SQL Server, Azure SQL, Cosmos DB)**](./business/14.md)
 
 # 4.Use Case and Efficiency Overview
