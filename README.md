@@ -155,6 +155,8 @@ Every product introduces opportunities to optimize, automate, and innovate—mak
  [**22. Catalan Numbers for Structural Parsing and UI Rendering in Microsoft Systems**](./business/22.md)
 
 [ **23. K-D Tree (K-Dimensional Tree) for Spatial Indexing and Search Optimization**](./business/23.md)
+
+[ **24. Ford-Fulkerson Algorithm in Network Flow Optimization**](./business/24.md)
  <br><br>
 
 ## 4.📊Use Case and Efficiency Overview
