@@ -124,6 +124,8 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
  [**14. Indexing in Microsoft Databases (SQL Server, Azure SQL, Cosmos DB)**](./business/14.md)
 
  [**15. Circular Queue in Azure, Windows OS, Microsoft Teams**](./business/15.md)
+ 
+ [**16. Stack in Word, Outlook, Visual Studio**](./business/16.md)
  <br><br>
 
 ## 4.📊Use Case and Efficiency Overview
@@ -155,7 +157,8 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 |         |                                                     | – AVL Tree                                     | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
 |         |                                                     | – Red-Black Tree                               | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
 |         |                                                     | – Binary Tree Variants                         | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
-|       15| **15. Circular Queue in Azure, Windows OS, Microsoft Teams** | -circular queue                       |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |
+|      15 | **15. Circular Queue in Azure, Windows OS, Microsoft Teams** | -Circular queue                       |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |
+|      16 | **16. Stack in Word, Outlook, Visual Studio** | -Stack                                                |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |                                 
 
 
 ## 5.Learnings and Key Takeaways
