@@ -127,29 +127,33 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 ## 4.📊Use Case and Efficiency Overview
 
 
-| SI. No. | Business Use Case                                | Data Structure / Algorithm Used                    | Efficiency (Time & Space Complexity)                             |
-| ------- | ------------------------------------------------ | -------------------------------------------------- | -----------------------------------------------------------------|
-| 1       | Outlook: Email Deduplication & Search            | Hash Tables                                        | 🔹 Time: O(n) <br> 🔹 Space: O(n)                               |
-| 2       | Azure Monitoring & Analytics                     | Segment Trees                                      | 🔹 Time: O(log n) <br> 🔹 Space: O(n)                           |
-| 3       | Word: Spell Checking & Autocomplete              | Tries                                              | 🔹 Time: O(L), L = word length <br> 🔹 Space: O(n·L)            |
-| 4       | Microsoft Security (Access Control & Encryption) | Bit Manipulation                                   | 🔹 Time: O(1)  <br> 🔹 Space: O(1)                              |
-| 5       | Microsoft Store Recommendation Engine            | Heaps (Priority Queue)                             | 🔹 Time: O(log n)  <br> 🔹 Space: O(n)                          |
-| 6       | Bing Maps, Azure, LinkedIn                       | Graph Traversal -Dijkstra                          | 🔹 Time: O((V + E) log V) <br> 🔹 Space: O(V)                   |
-                                                             | Graph Traversal -A* Algorithm                      | 🔹 Time: O((V + E) log V) <br> 🔹 Space: O(V)                   |
-                                                             | Graph Traversal -Breadth-First Search (BFS)        | 🔹 Time: O(V + E) <br> 🔹 Space: O(V)                           |       
-| 7       | Azure Job Scheduling                             | Priority Queues                                    | 🔹 Time: O(log n)  <br> 🔹 Space: O(n)                          |
-| 8       | Azure Table Storage & Indexing                   | Skip Lists                                         | 🔹 Time: O(log n)  <br> 🔹 Space: O(n)                          |
-| 9       | Azure Resource Allocation                        | Assignment Problem (Hungarian Algorithm)           | 🔹 Time: O(n³) <br> 🔹 Space: O(n²)                             |
-| 10      | Windows Explorer, Azure Storage                  | Sorting Algorithm - Merge Sort                     | 🔹 Time: O(n log n) <br> 🔹 Space: O(n)                         |
-                                                             | Sorting Algorithm - Quick Sort                     | 🔹 Time: O(n log n) <br> 🔹 Space: O(logn)                      |
-                                                             | Sorting Algorithm - Radix Sort                     | 🔹 Time: O(nk) <br> 🔹 Space: O(n+k)                            |
-| 11      | Azure Key Vault Encryption                       | Modular Inverse (Extended Euclidean Algorithm)     | 🔹 Time: O(log n) <br> 🔹 Space: O(1)                           |
-| 12      | Azure Cryptographic Protocols                    | Fermat’s Little Theorem                            | 🔹 Time: O(log n)  <br> 🔹 Space: O(1)                          |
-| 13      | RSA Security in Azure                            | Prime Factorization                                | 🔹 Time: Hard – no poly time known <br> 🔹 Space: Varies        |
-| 14      | SQL Server, Cosmos DB Indexing                   | Binary Search Trees                                | 🔹 Time: O(log n) <br> 🔹 Space: O(n)                           |
-                                                             | AVL Tree                                           | 🔹 Time: O(log n) <br> 🔹 Space: O(n)                           |
-                                                             | Red-Black Tree                                     | 🔹 Time: O(log n) <br> 🔹 Space: O(n)                           |
-                                                             | Binary Tree Variants                               | 🔹 Time: O(log n) <br> 🔹 Space: O(n)                           |
+| SI. No. | Business Use Case                                   | Data Structure / Algorithm Used                | Efficiency (Time & Space Complexity)                                |
+| ------: | --------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------- |
+|       1 | **Outlook**: Email Deduplication & Search           | Hash Tables                                    | 🔹 Time: `O(n)` <br> 🔹 Space: `O(n)`                               |
+|       2 | **Azure Monitoring & Analytics**                    | Segment Trees                                  | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
+|       3 | **Word**: Spell Checking & Autocomplete             | Tries                                          | 🔹 Time: `O(L)`, where L = word length <br> 🔹 Space: `O(n·L)`      |
+|       4 | **Microsoft Security**: Access Control & Encryption | Bit Manipulation                               | 🔹 Time: `O(1)` <br> 🔹 Space: `O(1)`                               |
+|       5 | **Microsoft Store**: Recommendation Engine          | Heaps (Priority Queue)                         | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
+|       6 | **Bing Maps / Azure / LinkedIn**                    | Graph Traversal Algorithms:                    |                                                                     |
+|         |                                                     | – Dijkstra's Algorithm                         | 🔹 Time: `O((V + E) log V)` <br> 🔹 Space: `O(V)`                   |
+|         |                                                     | – A\* Algorithm                                | 🔹 Time: `O((V + E) log V)` <br> 🔹 Space: `O(V)`                   |
+|         |                                                     | – Breadth-First Search (BFS)                   | 🔹 Time: `O(V + E)` <br> 🔹 Space: `O(V)`                           |
+|       7 | **Azure**: Job Scheduling                           | Priority Queues                                | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
+|       8 | **Azure Table Storage & Indexing**                  | Skip Lists                                     | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
+|       9 | **Azure Resource Allocation**                       | Assignment Problem (Hungarian Algorithm)       | 🔹 Time: `O(n³)` <br> 🔹 Space: `O(n²)`                             |
+|      10 | **Windows Explorer / Azure Storage**                | Sorting Algorithms:                            |                                                                     |
+|         |                                                     | – Merge Sort                                   | 🔹 Time: `O(n log n)` <br> 🔹 Space: `O(n)`                         |
+|         |                                                     | – Quick Sort                                   | 🔹 Time: `O(n log n)` <br> 🔹 Space: `O(log n)`                     |
+|         |                                                     | – Radix Sort                                   | 🔹 Time: `O(nk)` <br> 🔹 Space: `O(n + k)`                          |
+|      11 | **Azure Key Vault Encryption**                      | Modular Inverse (Extended Euclidean Algorithm) | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(1)`                           |
+|      12 | **Azure Cryptographic Protocols**                   | Fermat’s Little Theorem                        | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(1)`                           |
+|      13 | **RSA Security in Azure**                           | Prime Factorization                            | 🔹 Time: `No polynomial-time algorithm known` <br> 🔹 Space: Varies |
+|      14 | **SQL Server / Cosmos DB Indexing**                 | Binary Search Trees and Variants:              |                                                                     |
+|         |                                                     | – Binary Search Tree (BST)                     | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
+|         |                                                     | – AVL Tree                                     | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
+|         |                                                     | – Red-Black Tree                               | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
+|         |                                                     | – Binary Tree Variants                         | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
+
 
 
 ## 5.Learnings and Key Takeaways
