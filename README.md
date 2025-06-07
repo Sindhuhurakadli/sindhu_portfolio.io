@@ -210,6 +210,46 @@ By connecting classroom learning with real-world examples, the portfolio highlig
 
 [6] Microsoft Security. "Microsoft Security Blog." (n.d.). Available at: [microsoft.com](https://www.microsoft.com/en-us/security/blog/){:target="_blank"}.
 
-[3] Wikipedia. "Skip List." Available at: [Wikipedia](https://en.wikipedia.org/wiki/Skip_list){:target="_blank"}.
+[7] Draven. "HashTable – An In-Depth Guide." Available at: [draven.co](https://draven.co/hashtable/){:target="_blank"}.
 
-[4] GeeksforGeeks. "A* Search Algorithm." Available at: [GeeksforGeeks](https://www.geeksforgeeks.org/a-search-algorithm/){:target="_blank"}.
+[8] S. B. Satter. "Segment Tree 101: From Prefix Sum to Segment Tree." Available at: [dev.to](https://dev.to/sbsatter/segment-tree-101-from-prefix-sum-to-segment-tree-2a63){:target="_blank"}.
+
+[9] HackerEarth. "Basics of Bit Manipulation – Tutorial." Available at: [hackerearth.com](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/){:target="_blank"}.
+
+[9] Medium. "A Visual Introduction to Fenwick Tree." Available at: [medium.com](https://medium.com){:target="_blank"}.
+
+[10] Medium. "Load Balancing and Consistent Hashing." Available at: [medium.com](https://medium.com){:target="_blank"}.
+
+[11] HackerNoon. "Understanding the Basic Concepts of Heap Data Structure in Golang." Available at: [hackernoon.com](https://hackernoon.com/understanding-the-basic-concepts-of-heap-data-structure-in-golang){:target="_blank"}.
+
+[12] Stanford University. "Lecture 25: Graph Algorithms – CS106B." Available at: [web.stanford.edu](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1256/lectures/25-graph-algorithms/){:target="_blank"}.
+
+[13] AOS. "Understanding Dijkstra’s Algorithm." Available at: [blog.aos.sh](https://blog.aos.sh/2018/02/24/understanding-dijkstras-algorithm/){:target="_blank"}.
+
+[14] Wikipedia. "A* Search Algorithm." Available at: [en.wikipedia.org](https://en.wikipedia.org/wiki/A*_search_algorithm){:target="_blank"}.
+
+[15] Innoskrit. "Breadth‑First Search." Available at: [learn.innoskrit.in](https://learn.innoskrit.in/graph/breadth-first-search/){:target="_blank"}.
+
+[16] LearnersBucket. "Priority Queue Implementation in JavaScript." Available at: [learnersbucket.com](https://learnersbucket.com/tutorials/data-structures/priority-queue-implementation-in-javascript/){:target="_blank"}.
+
+[17] Wikipedia. "Skip List." Available at: [Wikipedia](https://en.wikipedia.org/wiki/Skip_list){:target="_blank"}.
+
+[18] Sanfoundry. "Assignments Problem – Dynamic Programming Solutions." Available at: [sanfoundry.com](https://www.sanfoundry.com/dynamic-programming-solutions-assignments-problem/){:target="_blank"}.
+
+[19] LearnSimpli. "Merge Sort in JavaScript." Available at: [learnsimpli.com](https://www.learnsimpli.com/merge-sort-in-javascript/){:target="_blank"}.
+
+[20] Tealfeed. "Visual Guide to QuickSort Algorithm." Available at: [tealfeed.com](https://tealfeed.com/visual-giude-quicksort-algorithm-svkje){:target="_blank"}.
+
+[21] Z. Pei. "Sorting Algorithms." Columbia University, 2015. Available at: [https://blogs.cuit.columbia.edu/zp2130/sorting/](https://blogs.cuit.columbia.edu/zp2130/sorting/){:target="_blank"}.
+
+[22] Wikipedia. "Fermat's Little Theorem." Available at: [en.wikipedia.org](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem){:target="_blank"}.
+
+[23] GeeksforGeeks. "Introduction to Circular Queue." Available at: [geeksforgeeks.org](https://www.geeksforgeeks.org/introduction-to-circular-queue/){:target="_blank"}.
+
+[24] Fully Understood. "Stack." Available at: [fullyunderstood.com](https://fullyunderstood.com/stack/){:target="_blank"}.
+
+[25] Wikipedia. "Double-ended queue." Available at: [en.wikipedia.org](https://en.wikipedia.org/wiki/Double-ended_queue){:target="_blank"}.
+
+[26] GeeksforGeeks. "KMP Algorithm for Pattern Searching." Available at: [geeksforgeeks.org](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/){:target="_blank"}.
+
+
