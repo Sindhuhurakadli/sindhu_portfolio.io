@@ -34,10 +34,8 @@
 
 ## 🔗 **Navigation Index**
 
-✨ Tap a section to explore deeper insights:
-
 1. [🌱 Introduction: Microsoft’s Digital Ecosystem](#1-introduction)
-2. [🎯 Objectives: Why This Portfolio Matters](#2-objectives)
+2. [🎯 Objectives](#2-objectives)
 3. [📈 From Business Cases to Algorithmic Blueprints](#3-business-use-cases-and-algorithmic-mapping)
 4. [📊 Use Case Evaluation & Efficiency Metrics](#4-performance-insights-and-metrics)
 5. [🧠 Key Learnings and Reflections](#5-learnings-and-final-takeaways)
@@ -48,14 +46,31 @@
 
 <p align="center">
   <img src="https://github.com/Sindhuhurakadli/sindhu_portfolio.io/blob/main/images/Microsoft-365.jpg?raw=true" width="70%">
-  <br><i>Figure: Microsoft—Empowering every person and organization on the planet to achieve more.</i>
+  <br><i>Microsoft—Empowering every person and organization on the planet to achieve more.</i>
 </p>
 
-Microsoft is more than a tech giant—it’s a **digital enabler**. Whether you’re a developer building the next big app, a student working on assignments, or an enterprise architect designing cloud solutions, Microsoft meets you where you are.
+Microsoft is more than a tech giant—it’s a digital enabler. Whether you’re a developer building the next big app, a student working on assignments, or an enterprise architect designing cloud solutions, Microsoft meets you where you are.
 
-With products rooted in **efficiency, intelligence, and connectivity**, Microsoft offers an unmatched ecosystem for businesses and individuals alike. These services present real-world challenges and optimization opportunities—**perfect use cases for algorithmic problem-solving**.
+With products rooted in efficiency, intelligence, and connectivity, Microsoft offers an unmatched ecosystem for businesses and individuals alike. These services present real-world challenges and optimization opportunities—perfect use cases for algorithmic problem-solving.
+<br>
 
----
+### 💡 Why Microsoft?
+Microsoft is not just a company—it’s the digital foundation of global innovation. Powering over 1 billion devices, supporting millions of developers, and securing 95% of Fortune 500 companies through Azure, it operates at a scale where computer science comes to life.
+
+This makes Microsoft’s ecosystem a living laboratory for studying how data structures and algorithms solve real-world challenges:
+
+🔐 Authenticating millions of users securely (Graph Theory, Hashing)
+
+📊 Analyzing business data in real time (Search Trees, Heaps)
+
+🔁 Syncing and storing files in the cloud (Queues, Caching)
+
+🔎 Searching across billions of emails or code repositories (KMP, Tries)
+
+🤖 Powering AI copilots and assistants (Dynamic Programming, Neural Networks)
+
+Every product introduces opportunities to optimize, automate, and innovate—making Microsoft a perfect case study for algorithmic thinking and digital problem-solving.
+<br>
 
 ### 🛠️ Core Services Explored
 
@@ -88,7 +103,7 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 
 2. Identify key algorithms, data structures, or system design techniques currently in use or with potential applications in enhancing Microsoft features.
 
-3. To connect Microsoft tools with basic DSA concepts and show how they solve real-world problems.
+3. To connect Microsoft tools with Data Structure and algorithm concepts and show how they solve real-world problems.
 
 4. To provide a detailed analysis of each algorithm’s complexity and performance.
 <br><br>
@@ -179,3 +194,22 @@ This portfolio shows how the right choice of data structures and algorithms can 
 
 By connecting classroom learning with real-world examples, the portfolio highlights how well-chosen algorithms can improve services and drive innovation. It emphasizes the value of understanding algorithms to make smarter, faster, and more effective solutions in everyday technology.
 <br><br><br>
+
+
+## References
+<br>
+[1] ALTA ICT. "What Apps Does Microsoft 365 Contain?" Available at: [alta-ict.nl](https://alta-ict.nl/en/blog/what-apps-does-microsoft-365-contain/){:target="_blank"}.
+
+[2] Microsoft. "Microsoft 365 – Products, Apps and Services." Available at: [microsoft.com](https://www.microsoft.com/en-in/microsoft-).
+
+[3] Microsoft. "Facts About Microsoft." (2023). Available at: [news.microsoft.com](https://news.microsoft.com/facts-about-microsoft/){:target="_blank"}.
+
+[4] Microsoft Azure. "What is Azure?" (n.d.). Available at: [azure.microsoft.com](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure/){:target="_blank"}.
+
+[5] GitHub. "100 Million Developers and Counting." (2023). Available at: [github.blog](https://github.blog/2023-01-25-100-million-developers-and-counting/){:target="_blank"}.
+
+[6] Microsoft Security. "Microsoft Security Blog." (n.d.). Available at: [microsoft.com](https://www.microsoft.com/en-us/security/blog/){:target="_blank"}.
+
+[3] Wikipedia. "Skip List." Available at: [Wikipedia](https://en.wikipedia.org/wiki/Skip_list){:target="_blank"}.
+
+[4] GeeksforGeeks. "A* Search Algorithm." Available at: [GeeksforGeeks](https://www.geeksforgeeks.org/a-search-algorithm/){:target="_blank"}.
