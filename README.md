@@ -54,20 +54,20 @@ Microsoft is more than a tech giant—it’s a digital enabler. Whether you’re
 With products rooted in efficiency, intelligence, and connectivity, Microsoft offers an unmatched ecosystem for businesses and individuals alike. These services present real-world challenges and optimization opportunities—perfect use cases for algorithmic problem-solving.
 <br>
 
-### 💡 Why Microsoft?
+###  Why Microsoft?
 Microsoft is not just a company—it’s the digital foundation of global innovation. Powering over 1 billion devices, supporting millions of developers, and securing 95% of Fortune 500 companies through Azure, it operates at a scale where computer science comes to life.
 
 This makes Microsoft’s ecosystem a living laboratory for studying how data structures and algorithms solve real-world challenges:
 
-🔐 Authenticating millions of users securely (Graph Theory, Hashing)
+1. Authenticating millions of users securely (Graph Theory, Hashing)
 
-📊 Analyzing business data in real time (Search Trees, Heaps)
+2. Analyzing business data in real time (Search Trees, Heaps)
 
-🔁 Syncing and storing files in the cloud (Queues, Caching)
+3. Syncing and storing files in the cloud (Queues, Caching)
 
-🔎 Searching across billions of emails or code repositories (KMP, Tries)
+4. Searching across billions of emails or code repositories (KMP, Tries)
 
-🤖 Powering AI copilots and assistants (Dynamic Programming, Neural Networks)
+5. Powering AI copilots and assistants (Dynamic Programming, Neural Networks)
 
 Every product introduces opportunities to optimize, automate, and innovate—making Microsoft a perfect case study for algorithmic thinking and digital problem-solving.
 <br>
