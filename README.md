@@ -129,7 +129,12 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 
  [**17. Deque (Double-Ended Queue)**](./business/17.md)
 
- [**18. Fenwick Tree (Binary Indexed Tree) for Efficient Range Queries and Updates in Microsoft Technologies**](./business/18/md)
+ [**18. Fenwick Tree (Binary Indexed Tree) for Efficient Range Queries and Updates in Microsoft Technologies**](./business/18.md)
+ 
+ [**19. Knuth-Morris-Pratt (KMP) Algorithm for Pattern Matching in Bing Search Optimization**](./business/19.md)
+
+ [**20. Bitmasking Can Be Used for Configuration State Management in Office 365 Optimization](./business/20.md)
+
  <br><br>
 
 ## 4.📊Use Case and Efficiency Overview
