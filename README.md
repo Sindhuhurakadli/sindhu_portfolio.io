@@ -126,6 +126,8 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
  [**15. Circular Queue in Azure, Windows OS, Microsoft Teams**](./business/15.md)
  
  [**16. Stack in Word, Outlook, Visual Studio**](./business/16.md)
+
+ [**17. Deque (Double-Ended Queue)**](./business/17.md)
  <br><br>
 
 ## 4.📊Use Case and Efficiency Overview
