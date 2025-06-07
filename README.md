@@ -93,7 +93,8 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 <br><br><br>
 # 3.Business Use Cases➡️Algorithmic Solutions
 
-### **1. Hash Tables in Microsoft Outlook (Email Deduplication and Search)**
+
+### [**1. Hash Tables in Microsoft Outlook (Email Deduplication and Search)**](./business/1.md)
 
 **How it's used:**
 
