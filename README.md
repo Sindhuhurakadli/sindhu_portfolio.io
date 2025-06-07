@@ -150,6 +150,11 @@ Every product introduces opportunities to optimize, automate, and innovate—mak
 
  [ **20. Bitmasking Can Be Used for Configuration State Management in Office 365 Optimization**](./business/20.md)
 
+ [ **21. Stable Marriage Problem for Optimized Matching in Microsoft Recruitment and Azure Scheduling**](./business/21.md)
+
+ [**22. Catalan Numbers for Structural Parsing and UI Rendering in Microsoft Systems**](./business/22.md)
+
+[ **23. K-D Tree (K-Dimensional Tree) for Spatial Indexing and Search Optimization**](./business/23.md)
  <br><br>
 
 ## 4.📊Use Case and Efficiency Overview
@@ -181,12 +186,17 @@ Every product introduces opportunities to optimize, automate, and innovate—mak
 |         |                                                     | – AVL Tree                                     | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
 |         |                                                     | – Red-Black Tree                               | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
 |         |                                                     | – Binary Tree Variants                         | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
-|      15 | **15. Circular Queue in Azure, Windows OS, Microsoft Teams** | -Circular queue                       |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |
-|      16 | **16. Stack in Word, Outlook, Visual Studio** | -Stack                                                |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |   
-|      17 | **17. Deque (Double-Ended Queue)**  |  -Deque                                                          |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |  
-|      18 | **18. Fenwick Tree (Binary Indexed Tree) for Efficient Range Queries and Updates in Microsoft Technologies**  |-Fenwick tree   |  🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |  
-|      19 | **19. Knuth-Morris-Pratt (KMP) Algorithm for Pattern Matching in Bing Search Optimization** | -KMP      |  🔹 Time: `O(n+m)` <br> 🔹 Space: `O(n+m)`                           |
-|      20 | **20. Bitmasking Can Be Used for Configuration State Management in Office 365 Optimization**             |  🔹 Time: `O(2ⁿ)` <br> 🔹 Space: `O(2ⁿ)`                           |
+|      15 | **Circular Queue in Azure, Windows OS, Microsoft Teams** | -Circular queue                       |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |
+|      16 | **Stack in Word, Outlook, Visual Studio** | -Stack                                                |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |   
+|      17 | **Deque (Double-Ended Queue)**  |  -Deque                                                          |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |  
+|      18 | **Fenwick Tree (Binary Indexed Tree) for Efficient Range Queries and Updates in Microsoft Technologies**  |-Fenwick tree   |  🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |  
+|      19 | **Knuth-Morris-Pratt (KMP) Algorithm for Pattern Matching in Bing Search Optimization** | -KMP      |  🔹 Time: `O(n+m)` <br> 🔹 Space: `O(n+m)`                           |
+|      20 | **Bitmasking Can Be Used for Configuration State Management in Office 365 Optimization**             |  🔹 Time: `O(2ⁿ)` <br> 🔹 Space: `O(2ⁿ)`                           |
+|      21 | **Stable Marriage Problem in Microsoft Recruitment and Azure Scheduling** | -Stable mrriage          |  🔹 Time: `O(n²)` <br> 🔹 Space: `O(n²)`                           |
+|      22 | **Catalan Numbers for Structural Parsing and UI Rendering**               | -Catalan Numbers         |  🔹 Time: `O(n)` <br> 🔹 Space: `O(n)`                           |   
+
+|      23 | **K-D Tree for Spatial Indexing and Search Optimization**                 | -K-D Tree                |  🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           | 
+|      24 | **Ford-Fulkerson Algorithm in Network Flow Optimization**                 | -Ford Fulkerson          |  🔹 Time: ` O(max\_flow × E)` <br> 🔹 Space: `O(V + E)`                           | 
 
 ## 5.Learnings and Key Takeaways
 
@@ -252,4 +262,11 @@ By connecting classroom learning with real-world examples, the portfolio highlig
 
 [26] GeeksforGeeks. "KMP Algorithm for Pattern Searching." Available at: [geeksforgeeks.org](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/){:target="_blank"}.
 
+[27] Sanfoundry. "C Program to Solve Stable Marriage (Matching) Problem – Given Specific Case." Available at: [sanfoundry.com](https://www.sanfoundry.com/c-program-solve-matching-problem-given-specific-case/){:target="_blank"}.
+
+[28] Wikipedia. "Catalan Number." Available at: [en.wikipedia.org](https://en.wikipedia.org/wiki/Catalan_number){:target="_blank"}.
+
+[29] Wikipedia. "K-d Tree." Available at: [en.wikipedia.org](https://en.wikipedia.org/wiki/K-d_tree){:target="_blank"}.
+
+[30] MitchellGray100. "FordFulkerson." GitHub repository. Available at: [github.com](https://github.com/MitchellGray100/FordFulkerson){:target="_blank"}. 
 
