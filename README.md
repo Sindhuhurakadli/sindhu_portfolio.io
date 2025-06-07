@@ -160,8 +160,8 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
 |         |                                                     | – Red-Black Tree                               | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
 |         |                                                     | – Binary Tree Variants                         | 🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           |
 |      15 | **15. Circular Queue in Azure, Windows OS, Microsoft Teams** | -Circular queue                       |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |
-|      16 | **16. Stack in Word, Outlook, Visual Studio** | -Stack                                                |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |                                 
-
+|      16 | **16. Stack in Word, Outlook, Visual Studio** | -Stack                                                |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |   
+|      17 | **17. Deque (Double-Ended Queue)**  |  -Deque                                                          |  🔹 Time: `O(1)` <br> 🔹 Space: `O(n)`                           |      
 
 ## 5.Learnings and Key Takeaways
 
