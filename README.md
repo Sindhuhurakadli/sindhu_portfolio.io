@@ -133,7 +133,7 @@ With products rooted in **efficiency, intelligence, and connectivity**, Microsof
  
  [**19. Knuth-Morris-Pratt (KMP) Algorithm for Pattern Matching in Bing Search Optimization**](./business/19.md)
 
- [**20. Bitmasking Can Be Used for Configuration State Management in Office 365 Optimization](./business/20.md)
+ [ **20. Bitmasking Can Be Used for Configuration State Management in Office 365 Optimization**](./business/20.md)
 
  <br><br>
 
