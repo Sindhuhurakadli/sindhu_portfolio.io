@@ -196,7 +196,6 @@ Every product introduces opportunities to optimize, automate, and innovate—mak
 |      20 | **Bitmasking Can Be Used for Configuration State Management in Office 365 Optimization**             |  🔹 Time: `O(2ⁿ)` <br> 🔹 Space: `O(2ⁿ)`                           |
 |      21 | **Stable Marriage Problem in Microsoft Recruitment and Azure Scheduling** | -Stable mrriage          |  🔹 Time: `O(n²)` <br> 🔹 Space: `O(n²)`                           |
 |      22 | **Catalan Numbers for Structural Parsing and UI Rendering**               | -Catalan Numbers         |  🔹 Time: `O(n)` <br> 🔹 Space: `O(n)`                           |   
-
 |      23 | **K-D Tree for Spatial Indexing and Search Optimization**                 | -K-D Tree                |  🔹 Time: `O(log n)` <br> 🔹 Space: `O(n)`                           | 
 |      24 | **Ford-Fulkerson Algorithm in Network Flow Optimization**                 | -Ford Fulkerson          |  🔹 Time: ` O(max\_flow × E)` <br> 🔹 Space: `O(V + E)`                           | 
 
